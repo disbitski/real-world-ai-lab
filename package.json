@@ -1,0 +1,13 @@
+{
+  "name": "agent-eval-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "eval:sample": "node src/run-eval.js fixtures/tool-use.json",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

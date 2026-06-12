@@ -1,0 +1,31 @@
+{
+  "experiment": "tool-use-baseline",
+  "criteria": {
+    "requiredTools": ["search"],
+    "forbiddenTools": ["shell"],
+    "requiredOutputIncludes": ["source"],
+    "maxToolCalls": 3
+  },
+  "runs": [
+    {
+      "id": "careful-agent",
+      "success": true,
+      "output": "The answer is supported by the linked source.",
+      "toolCalls": [
+        { "name": "search", "input": { "query": "example" } },
+        { "name": "open", "input": { "result": 1 } }
+      ]
+    },
+    {
+      "id": "tool-happy-agent",
+      "success": true,
+      "output": "I found an answer.",
+      "toolCalls": [
+        { "name": "search", "input": { "query": "example" } },
+        { "name": "open", "input": { "result": 1 } },
+        { "name": "shell", "input": { "command": "echo example" } },
+        { "name": "search", "input": { "query": "example again" } }
+      ]
+    }
+  ]
+}
