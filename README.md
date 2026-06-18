@@ -1,7 +1,7 @@
-# AI Agent Evaluation Lab
+# Real World AI Lab
 
-Practical research, field notes, and reproducible experiments for understanding
-AI agents, workflow design, and human-AI collaboration.
+Notes from the trenches, practical research, and reproducible experiments for
+understanding AI agents, Codex workflows, and human-AI collaboration.
 
 This lab is a place to turn hands-on AI work into something useful for other
 builders: inspectable evaluations, thoughtful notes from real workflows, and
