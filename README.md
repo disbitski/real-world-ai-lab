@@ -1,7 +1,12 @@
 # AI Agent Evaluation Lab
 
-Reproducible, inspectable experiments for understanding AI agent behavior,
-reliability, and tool use.
+Practical research, field notes, and reproducible experiments for understanding
+AI agents, workflow design, and human-AI collaboration.
+
+This lab is a place to turn hands-on AI work into something useful for other
+builders: inspectable evaluations, thoughtful notes from real workflows, and
+clear ideas about where agents create value when humans, tools, and process work
+together.
 
 The lab starts with a deliberately simple evaluator: give it recorded agent
 runs and explicit criteria, then receive a scorecard showing which behaviors
@@ -63,6 +68,13 @@ more recorded runs:
 - Separate deterministic checks from model-based judgments.
 - Treat an evaluation as evidence, not absolute truth.
 
+## Field Notes
+
+Short journal-style notes from hands-on AI workflow experiments:
+
+- [Workflows Are Where Codex Gets Powerful](field-notes/2026-06-18-codex-workflows.md)
+- [AI Is A Collaboration Layer, Not A Replacement Worker](field-notes/2026-06-18-human-ai-interaction.md)
+
 ## Roadmap
 
 - Add JSON Schema validation for fixtures
@@ -70,4 +82,3 @@ more recorded runs:
 - Export Markdown and JSON reports
 - Add latency and cost measurements
 - Explore model-based judges and judge agreement
-
