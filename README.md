@@ -74,6 +74,7 @@ Short journal-style notes from hands-on AI workflow experiments:
 
 - [Workflows Are Where Codex Gets Powerful](field-notes/2026-06-18-codex-workflows.md)
 - [AI Is A Collaboration Layer, Not A Replacement Worker](field-notes/2026-06-18-human-ai-interaction.md)
+- [Reading Model Cards Without Getting Lost](field-notes/2026-06-19-model-context-output-reasoning.md)
 
 ## Roadmap
 
