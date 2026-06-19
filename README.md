@@ -16,9 +16,6 @@ Short journal-style notes from hands-on AI workflow experiments:
 - [AI Is A Collaboration Layer, Not A Replacement Worker](field-notes/2026-06-18-human-ai-interaction.md)
 - [Reading Model Cards Without Getting Lost](field-notes/2026-06-19-model-context-output-reasoning.md)
 
-Use the [field-notes Codex skill](skills/field-notes/SKILL.md) to turn future
-sessions into new notes with the same structure and publishing workflow.
-
 The lab starts with a deliberately simple evaluator: give it recorded agent
 runs and explicit criteria, then receive a scorecard showing which behaviors
 passed and why. Keeping the first evaluator deterministic makes it easy to

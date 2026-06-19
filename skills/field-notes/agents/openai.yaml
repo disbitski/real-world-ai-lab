@@ -1,4 +1,0 @@
-interface:
-  display_name: "Field Notes"
-  short_description: "Draft and publish Real World AI Lab field notes."
-  default_prompt: "Use this workflow to turn a topic or working session into a Real World AI Lab field note, update the README Field Notes section, verify the repo, and publish the change."
