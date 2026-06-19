@@ -8,6 +8,17 @@ builders: inspectable evaluations, thoughtful notes from real workflows, and
 clear ideas about where agents create value when humans, tools, and process work
 together.
 
+## Field Notes
+
+Short journal-style notes from hands-on AI workflow experiments:
+
+- [Workflows Are Where Codex Gets Powerful](field-notes/2026-06-18-codex-workflows.md)
+- [AI Is A Collaboration Layer, Not A Replacement Worker](field-notes/2026-06-18-human-ai-interaction.md)
+- [Reading Model Cards Without Getting Lost](field-notes/2026-06-19-model-context-output-reasoning.md)
+
+Use the [field-notes Codex skill](skills/field-notes/SKILL.md) to turn future
+sessions into new notes with the same structure and publishing workflow.
+
 The lab starts with a deliberately simple evaluator: give it recorded agent
 runs and explicit criteria, then receive a scorecard showing which behaviors
 passed and why. Keeping the first evaluator deterministic makes it easy to
@@ -67,14 +78,6 @@ more recorded runs:
 - Record failures, not just aggregate scores.
 - Separate deterministic checks from model-based judgments.
 - Treat an evaluation as evidence, not absolute truth.
-
-## Field Notes
-
-Short journal-style notes from hands-on AI workflow experiments:
-
-- [Workflows Are Where Codex Gets Powerful](field-notes/2026-06-18-codex-workflows.md)
-- [AI Is A Collaboration Layer, Not A Replacement Worker](field-notes/2026-06-18-human-ai-interaction.md)
-- [Reading Model Cards Without Getting Lost](field-notes/2026-06-19-model-context-output-reasoning.md)
 
 ## Roadmap
 
