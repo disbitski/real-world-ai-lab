@@ -17,12 +17,12 @@ Short journal-style notes from hands-on AI workflow experiments:
 - [Reading Model Cards Without Getting Lost](field-notes/2026-06-19-model-context-output-reasoning.md)
 - [Skill Discovery Is Part Of The Workflow](field-notes/2026-06-19-codex-skill-discovery.md)
 
-The lab starts with a deliberately simple evaluator: give it recorded agent
+## First Experiment: Tool-Use Reliability
+
+My ongoing AI experiments lab starts with a deliberately simple evaluator: give it recorded agent
 runs and explicit criteria, then receive a scorecard showing which behaviors
 passed and why. Keeping the first evaluator deterministic makes it easy to
 understand before adding model-based judges.
-
-## First Experiment: Tool-Use Reliability
 
 The sample fixture evaluates whether an agent:
 
