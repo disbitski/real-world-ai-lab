@@ -17,7 +17,7 @@ skills you want Codex to discover and show in the picker.
 
 ## Observation
 
-We first installed a custom `field-notes` skill under `~/.codex/skills`. The
+I first installed a custom `field-notes` skill under `~/.codex/skills`. The
 skill existed, and the instructions were usable in the thread, but it did not
 show up in the `$` autocomplete list alongside the Chainlink skills.
 
