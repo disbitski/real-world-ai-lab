@@ -20,6 +20,7 @@ Short journal-style notes from hands-on AI workflow experiments:
 - [When Plan Mode Is Useful](field-notes/2026-06-20-when-plan-mode-is-useful.md)
 - [AGENTS.md Is A README For Agents](field-notes/2026-06-20-agents-md-readme-for-agents.md)
 - [Locking Down Permissions With Codex Rules](field-notes/2026-06-20-locking-down-permissions-with-codex-rules.md)
+- [config.toml Is The Harness Environment](field-notes/2026-06-20-config-toml-harness-environment.md)
 
 ## First Experiment: Tool-Use Reliability
 
