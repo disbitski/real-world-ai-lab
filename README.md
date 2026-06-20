@@ -16,6 +16,7 @@ Short journal-style notes from hands-on AI workflow experiments:
 - [AI Is A Collaboration Layer, Not A Replacement Worker](field-notes/2026-06-18-human-ai-interaction.md)
 - [Reading Model Cards Without Getting Lost](field-notes/2026-06-19-model-context-output-reasoning.md)
 - [Skill Discovery Is Part Of The Workflow](field-notes/2026-06-19-codex-skill-discovery.md)
+- [The Harness Is Not The Model](field-notes/2026-06-20-agent-harnesses.md)
 
 ## First Experiment: Tool-Use Reliability
 
