@@ -18,6 +18,7 @@ Short journal-style notes from hands-on AI workflow experiments:
 - [Skill Discovery Is Part Of The Workflow](field-notes/2026-06-19-codex-skill-discovery.md)
 - [The Harness Is Not The Model](field-notes/2026-06-20-agent-harnesses.md)
 - [When Plan Mode Is Useful](field-notes/2026-06-20-when-plan-mode-is-useful.md)
+- [AGENTS.md Is A README For Agents](field-notes/2026-06-20-agents-md-readme-for-agents.md)
 
 ## First Experiment: Tool-Use Reliability
 
