@@ -17,6 +17,7 @@ Short journal-style notes from hands-on AI workflow experiments:
 - [Reading Model Cards Without Getting Lost](field-notes/2026-06-19-model-context-output-reasoning.md)
 - [Skill Discovery Is Part Of The Workflow](field-notes/2026-06-19-codex-skill-discovery.md)
 - [The Harness Is Not The Model](field-notes/2026-06-20-agent-harnesses.md)
+- [When Plan Mode Is Useful](field-notes/2026-06-20-when-plan-mode-is-useful.md)
 
 ## First Experiment: Tool-Use Reliability
 
