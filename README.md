@@ -21,6 +21,7 @@ Short journal-style notes from hands-on AI workflow experiments:
 - [AGENTS.md Is A README For Agents](field-notes/2026-06-20-agents-md-readme-for-agents.md)
 - [Locking Down Permissions With Codex Rules](field-notes/2026-06-20-locking-down-permissions-with-codex-rules.md)
 - [config.toml Is The Harness Environment](field-notes/2026-06-20-config-toml-harness-environment.md)
+- [Loops Are The New Prompt Surface](field-notes/2026-06-21-agentic-loops.md)
 
 ## First Experiment: Tool-Use Reliability
 
