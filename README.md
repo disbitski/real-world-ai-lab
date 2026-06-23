@@ -27,6 +27,7 @@ Short journal-style notes from hands-on AI workflow experiments:
 
 ### Agent Harness & Operating Environment
 
+- [Custom Agent Statuslines Make The Terminal Feel Alive](field-notes/2026-06-23-custom-agent-statuslines.md)
 - [The Harness Is Not The Model](field-notes/2026-06-20-agent-harnesses.md)
 - [MCP Is The Tool Layer](field-notes/2026-06-23-mcp-is-the-tool-layer.md)
 - [config.toml Is The Harness Environment](field-notes/2026-06-20-config-toml-harness-environment.md)
