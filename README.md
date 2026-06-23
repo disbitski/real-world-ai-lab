@@ -12,17 +12,28 @@ together.
 
 Short journal-style notes from hands-on AI workflow experiments:
 
-- [Workflows Are Where Codex Gets Powerful](field-notes/2026-06-18-codex-workflows.md)
+### Mindset & Collaboration
+
 - [AI Is A Collaboration Layer, Not A Replacement Worker](field-notes/2026-06-18-human-ai-interaction.md)
-- [Reading Model Cards Without Getting Lost](field-notes/2026-06-19-model-context-output-reasoning.md)
-- [Skill Discovery Is Part Of The Workflow](field-notes/2026-06-19-codex-skill-discovery.md)
-- [The Harness Is Not The Model](field-notes/2026-06-20-agent-harnesses.md)
+- [Workflows Are Where Codex Gets Powerful](field-notes/2026-06-18-codex-workflows.md)
 - [When Plan Mode Is Useful](field-notes/2026-06-20-when-plan-mode-is-useful.md)
-- [AGENTS.md Is A README For Agents](field-notes/2026-06-20-agents-md-readme-for-agents.md)
-- [Locking Down Permissions With Codex Rules](field-notes/2026-06-20-locking-down-permissions-with-codex-rules.md)
-- [config.toml Is The Harness Environment](field-notes/2026-06-20-config-toml-harness-environment.md)
 - [Loops Are The New Prompt Surface](field-notes/2026-06-21-agentic-loops.md)
+
+### Context & Knowledge
+
 - [RAG Is Context Work](field-notes/2026-06-23-rag-is-context-work.md)
+- [Reading Model Cards Without Getting Lost](field-notes/2026-06-19-model-context-output-reasoning.md)
+
+### Agent Harness & Operating Environment
+
+- [The Harness Is Not The Model](field-notes/2026-06-20-agent-harnesses.md)
+- [config.toml Is The Harness Environment](field-notes/2026-06-20-config-toml-harness-environment.md)
+- [Locking Down Permissions With Codex Rules](field-notes/2026-06-20-locking-down-permissions-with-codex-rules.md)
+
+### Reusable Agent Instructions
+
+- [AGENTS.md Is A README For Agents](field-notes/2026-06-20-agents-md-readme-for-agents.md)
+- [Skill Discovery Is Part Of The Workflow](field-notes/2026-06-19-codex-skill-discovery.md)
 
 ## First Experiment: Tool-Use Reliability
 
