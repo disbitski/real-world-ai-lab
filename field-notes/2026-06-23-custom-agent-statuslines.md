@@ -149,9 +149,6 @@ style of statusline, they can copy the script into `~/.claude/`, add the
 `statusLine` block to `~/.claude/settings.json`, and test the output before
 restarting Claude Code.
 
-That turns the field note from an observation into a reusable workflow: read
-the idea, inspect the screenshot, then jump straight to a working
-implementation.
 
 ## Evaluation Ideas
 
