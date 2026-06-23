@@ -137,6 +137,22 @@ The Claude Code script I built displays:
 That is the practical layer I want during real work. It tells me where I am,
 what kind of agent session I am in, and how much room I have left.
 
+## Try The Claude Code Statusline
+
+I published the Claude Code version as a small public utility repo:
+
+- [claude-code-statusline](https://github.com/disbitski/claude-code-statusline)
+
+The repo includes the shell script, screenshot, install steps, sample JSON input
+for local testing, and customization notes. If someone wants to try the same
+style of statusline, they can copy the script into `~/.claude/`, add the
+`statusLine` block to `~/.claude/settings.json`, and test the output before
+restarting Claude Code.
+
+That turns the field note from an observation into a reusable workflow: read
+the idea, inspect the screenshot, then jump straight to a working
+implementation.
+
 ## Evaluation Ideas
 
 This lab can evaluate custom statuslines as part of the agent harness:
