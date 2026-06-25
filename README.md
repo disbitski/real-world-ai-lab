@@ -29,6 +29,7 @@ Short journal-style notes from hands-on AI workflow experiments:
 
 - [Custom Agent Statuslines Make The Terminal Feel Alive](field-notes/2026-06-23-custom-agent-statuslines.md)
 - [The Harness Is Not The Model](field-notes/2026-06-20-agent-harnesses.md)
+- [Subagents Keep The Main Thread Clean](field-notes/2026-06-25-subagents-keep-the-main-thread-clean.md)
 - [MCP Is The Tool Layer](field-notes/2026-06-23-mcp-is-the-tool-layer.md)
 - [config.toml Is The Harness Environment](field-notes/2026-06-20-config-toml-harness-environment.md)
 - [Locking Down Permissions With Codex Rules](field-notes/2026-06-20-locking-down-permissions-with-codex-rules.md)
