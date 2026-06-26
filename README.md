@@ -22,6 +22,7 @@ Short journal-style notes from hands-on AI workflow experiments:
 ### Context & Knowledge
 
 - [Claude Code Shortcuts Are Context Steering](field-notes/2026-06-23-claude-code-context-shortcuts.md)
+- [Claude Code Memory Is A Staging Layer](field-notes/2026-06-26-claude-code-memory-is-a-staging-layer.md)
 - [RAG Is Context Work](field-notes/2026-06-23-rag-is-context-work.md)
 - [Reading Model Cards Without Getting Lost](field-notes/2026-06-19-model-context-output-reasoning.md)
 
