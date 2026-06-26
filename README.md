@@ -8,6 +8,19 @@ builders: inspectable evaluations, thoughtful notes from real workflows, and
 clear ideas about where agents create value when humans, tools, and process work
 together.
 
+## Enhance your knowledge with Real World AI Flashcards
+
+Jump straight into the core lessons with a study deck organized by the same
+field-note categories. By default, the cards combine official documentation
+with real-world lessons from my field notes. Turn off the real-world experience
+toggle to study only cards grounded in official documentation links.
+
+[Study the flashcards](https://disbitski.github.io/real-world-ai-lab/)
+
+| Light theme | Dark theme |
+| --- | --- |
+| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-dark.png) |
+
 ## Field Notes
 
 Short journal-style notes from hands-on AI workflow experiments:

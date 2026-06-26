@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Real World AI Flashcards</title>
+    <meta
+      name="description"
+      content="Study Real World AI Lab field notes through official-doc and real-world experience flashcards."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Real World AI Lab</p>
+          <h1 id="page-title">Real World AI Flashcards</h1>
+          <p>
+            Practice the ideas behind the field notes with cards grounded in official OpenAI,
+            Anthropic, xAI, MCP, and related documentation, then layer in Dave's real-world
+            lessons from hands-on agent work.
+          </p>
+        </div>
+        <div class="hero-panel" aria-label="Study mode summary">
+          <span id="total-count">0</span>
+          <p>cards across field-note categories</p>
+        </div>
+      </section>
+
+      <section class="toolbar" aria-label="Flashcard controls">
+        <label class="field">
+          <span>Category</span>
+          <select id="category-filter"></select>
+        </label>
+        <label class="switch">
+          <input id="experience-toggle" type="checkbox" checked />
+          <span>Use Dave's real-world experiences</span>
+        </label>
+        <button id="theme-toggle" type="button">Dark theme</button>
+      </section>
+
+      <p class="mode-note" id="mode-note">
+        Default mode includes official documentation plus lessons learned from Dave's field
+        notes. Uncheck the box to study official-documentation cards only.
+      </p>
+
+      <section class="study-area" aria-live="polite">
+        <article class="flashcard" id="flashcard" tabindex="0" aria-label="Flashcard. Press to flip.">
+          <div class="card-face card-front">
+            <div class="card-meta">
+              <span id="card-category"></span>
+              <span id="card-mode"></span>
+            </div>
+            <h2 id="card-question"></h2>
+            <p class="hint">Select the card to reveal the answer.</p>
+          </div>
+          <div class="card-face card-back">
+            <div class="card-meta">
+              <span id="answer-category"></span>
+              <span id="answer-mode"></span>
+            </div>
+            <p id="card-answer"></p>
+            <p class="lesson-marker" id="lesson-marker"></p>
+            <div class="links">
+              <a id="field-note-link" href="#" target="_blank" rel="noreferrer">Read the field note</a>
+              <div id="source-links"></div>
+            </div>
+          </div>
+        </article>
+
+        <div class="controls">
+          <button id="prev-card" type="button">Previous</button>
+          <button id="flip-card" type="button">Flip</button>
+          <button id="next-card" type="button">Next</button>
+          <button id="shuffle-cards" type="button">Shuffle</button>
+        </div>
+        <p class="progress" id="progress"></p>
+      </section>
+    </main>
+
+    <script type="module">
+      import { categories, cardsForMode } from "./flashcards.js";
+
+      const elements = {
+        body: document.body,
+        categoryFilter: document.querySelector("#category-filter"),
+        experienceToggle: document.querySelector("#experience-toggle"),
+        themeToggle: document.querySelector("#theme-toggle"),
+        modeNote: document.querySelector("#mode-note"),
+        totalCount: document.querySelector("#total-count"),
+        flashcard: document.querySelector("#flashcard"),
+        category: document.querySelector("#card-category"),
+        mode: document.querySelector("#card-mode"),
+        question: document.querySelector("#card-question"),
+        answerCategory: document.querySelector("#answer-category"),
+        answerMode: document.querySelector("#answer-mode"),
+        answer: document.querySelector("#card-answer"),
+        lessonMarker: document.querySelector("#lesson-marker"),
+        fieldNoteLink: document.querySelector("#field-note-link"),
+        sourceLinks: document.querySelector("#source-links"),
+        prev: document.querySelector("#prev-card"),
+        flip: document.querySelector("#flip-card"),
+        next: document.querySelector("#next-card"),
+        shuffle: document.querySelector("#shuffle-cards"),
+        progress: document.querySelector("#progress"),
+      };
+
+      const params = new URLSearchParams(window.location.search);
+      const savedTheme = params.get("theme") || localStorage.getItem("flashcards-theme") || "light";
+      let activeCards = [];
+      let index = 0;
+
+      function setTheme(theme) {
+        elements.body.dataset.theme = theme;
+        elements.themeToggle.textContent = theme === "dark" ? "Light theme" : "Dark theme";
+        localStorage.setItem("flashcards-theme", theme);
+      }
+
+      function labelForMode(mode) {
+        return mode === "official" ? "Official docs" : "Real-world lesson";
+      }
+
+      function buildCategories() {
+        elements.categoryFilter.innerHTML = [
+          `<option value="All">All categories</option>`,
+          ...categories.map((category) => `<option value="${category}">${category}</option>`),
+        ].join("");
+      }
+
+      function getFilteredCards() {
+        const selectedCategory = elements.categoryFilter.value;
+        return cardsForMode(elements.experienceToggle.checked).filter(
+          (card) => selectedCategory === "All" || card.category === selectedCategory,
+        );
+      }
+
+      function renderCard() {
+        activeCards = getFilteredCards();
+        elements.totalCount.textContent = String(cardsForMode(true).length);
+
+        if (activeCards.length === 0) {
+          elements.question.textContent = "No official-only cards are available for this category yet.";
+          elements.answer.textContent = "Turn on Dave's real-world experiences or pick another category.";
+          elements.progress.textContent = "0 of 0";
+          elements.sourceLinks.innerHTML = "";
+          elements.lessonMarker.textContent = "";
+          return;
+        }
+
+        index = ((index % activeCards.length) + activeCards.length) % activeCards.length;
+        const card = activeCards[index];
+        elements.flashcard.classList.remove("is-flipped");
+        elements.category.textContent = card.category;
+        elements.answerCategory.textContent = card.category;
+        elements.mode.textContent = labelForMode(card.mode);
+        elements.answerMode.textContent = labelForMode(card.mode);
+        elements.question.textContent = card.question;
+        elements.answer.textContent = card.answer;
+        elements.lessonMarker.textContent =
+          card.mode === "real_world"
+            ? "Real-world lesson from Dave's field note, not an official provider claim."
+            : "";
+        elements.fieldNoteLink.href = card.fieldNoteUrl;
+        elements.sourceLinks.innerHTML = card.sources.length
+          ? `<p>Official sources</p>${card.sources
+              .map((source) => `<a href="${source.url}" target="_blank" rel="noreferrer">${source.label}</a>`)
+              .join("")}`
+          : "";
+        elements.progress.textContent = `${index + 1} of ${activeCards.length}`;
+      }
+
+      function updateModeNote() {
+        elements.modeNote.textContent = elements.experienceToggle.checked
+          ? "Default mode includes official documentation plus real-world lessons from Dave's field notes."
+          : "Official-only mode shows cards grounded in official documentation links.";
+      }
+
+      function shuffleCards() {
+        const current = activeCards[index]?.id;
+        activeCards = getFilteredCards().sort(() => Math.random() - 0.5);
+        index = Math.max(0, activeCards.findIndex((card) => card.id !== current));
+        renderCard();
+      }
+
+      buildCategories();
+      setTheme(savedTheme === "dark" ? "dark" : "light");
+      updateModeNote();
+      renderCard();
+
+      elements.themeToggle.addEventListener("click", () => {
+        setTheme(elements.body.dataset.theme === "dark" ? "light" : "dark");
+      });
+      elements.experienceToggle.addEventListener("change", () => {
+        index = 0;
+        updateModeNote();
+        renderCard();
+      });
+      elements.categoryFilter.addEventListener("change", () => {
+        index = 0;
+        renderCard();
+      });
+      elements.flashcard.addEventListener("click", () => elements.flashcard.classList.toggle("is-flipped"));
+      elements.flashcard.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          elements.flashcard.classList.toggle("is-flipped");
+        }
+      });
+      elements.flip.addEventListener("click", () => elements.flashcard.classList.toggle("is-flipped"));
+      elements.prev.addEventListener("click", () => {
+        index -= 1;
+        renderCard();
+      });
+      elements.next.addEventListener("click", () => {
+        index += 1;
+        renderCard();
+      });
+      elements.shuffle.addEventListener("click", shuffleCards);
+    </script>
+  </body>
+</html>
