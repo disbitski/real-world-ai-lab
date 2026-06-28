@@ -23,6 +23,39 @@ export const flashcards = [
     sources: [],
   },
   {
+    id: "4d-framework-official",
+    category: "Mindset & Collaboration",
+    mode: "official",
+    fieldNoteTitle: "The 4D Framework Is A Common Language For AI Collaboration",
+    fieldNotePath: "field-notes/2026-06-28-4d-framework-common-language.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-06-28-4d-framework-common-language.md`,
+    question: "What are the four competencies in Anthropic's AI Fluency 4D framework?",
+    answer:
+      "The 4Ds are Description, Delegation, Discernment, and Diligence: describing goals and outputs, deciding the human/AI work split, evaluating AI outputs and behavior, and taking responsibility for AI use.",
+    tags: ["ai fluency", "4d framework", "collaboration"],
+    sources: [
+      {
+        label: "Anthropic Academy AI Fluency",
+        url: "https://anthropic.skilljar.com/ai-fluency-framework-foundations",
+      },
+      { label: "Anthropic education", url: "https://www.anthropic.com/education" },
+      { label: "ASQ Six Sigma", url: "https://asq.org/quality-resources/six-sigma" },
+    ],
+  },
+  {
+    id: "4d-framework-real",
+    category: "Mindset & Collaboration",
+    mode: "real_world",
+    fieldNoteTitle: "The 4D Framework Is A Common Language For AI Collaboration",
+    fieldNotePath: "field-notes/2026-06-28-4d-framework-common-language.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-06-28-4d-framework-common-language.md`,
+    question: "Why did the 4D framework click for me after Six Sigma Green Belt training?",
+    answer:
+      "It gave me a common language for AI collaboration, similar to how Six Sigma gave teams a common language for process improvement. The 4Ds make AI conversations more concrete, measurable, and less fear-driven.",
+    tags: ["ai fluency", "six sigma", "shared language"],
+    sources: [],
+  },
+  {
     id: "codex-workflows-real",
     category: "Mindset & Collaboration",
     mode: "real_world",
