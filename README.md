@@ -28,13 +28,13 @@ Short journal-style notes from hands-on AI workflow experiments:
 ### Mindset & Collaboration
 
 - [AI Is A Collaboration Layer, Not A Replacement Worker](field-notes/2026-06-18-human-ai-interaction.md)
-- [The 4D Framework Is A Common Language For AI Collaboration](field-notes/2026-06-28-4d-framework-common-language.md)
 - [Workflows Are Where Codex Gets Powerful](field-notes/2026-06-18-codex-workflows.md)
 - [When Plan Mode Is Useful](field-notes/2026-06-20-when-plan-mode-is-useful.md)
 - [Loops Are The New Prompt Surface](field-notes/2026-06-21-agentic-loops.md)
 
-### Education & Learning
+### Societal Impacts
 
+- [The 4D Framework Is A Common Language For AI Collaboration](field-notes/2026-06-28-4d-framework-common-language.md)
 - [Teaching AI Fluency Feels Like Classical Learning For The AI Era](field-notes/2026-06-29-teaching-ai-fluency-classical-learning.md)
 
 ### Context & Knowledge

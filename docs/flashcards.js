@@ -3,7 +3,7 @@ const NOTE_BASE = `${REPO_BASE}/field-notes`;
 
 export const categories = [
   "Mindset & Collaboration",
-  "Education & Learning",
+  "Societal Impacts",
   "Context & Knowledge",
   "Agent Harness & Operating Environment",
   "Reusable Agent Instructions",
@@ -25,7 +25,7 @@ export const flashcards = [
   },
   {
     id: "4d-framework-official",
-    category: "Mindset & Collaboration",
+    category: "Societal Impacts",
     mode: "official",
     fieldNoteTitle: "The 4D Framework Is A Common Language For AI Collaboration",
     fieldNotePath: "field-notes/2026-06-28-4d-framework-common-language.md",
@@ -45,7 +45,7 @@ export const flashcards = [
   },
   {
     id: "4d-framework-real",
-    category: "Mindset & Collaboration",
+    category: "Societal Impacts",
     mode: "real_world",
     fieldNoteTitle: "The 4D Framework Is A Common Language For AI Collaboration",
     fieldNotePath: "field-notes/2026-06-28-4d-framework-common-language.md",
@@ -71,7 +71,7 @@ export const flashcards = [
   },
   {
     id: "teaching-ai-fluency-official",
-    category: "Education & Learning",
+    category: "Societal Impacts",
     mode: "official",
     fieldNoteTitle: "Teaching AI Fluency Feels Like Classical Learning For The AI Era",
     fieldNotePath: "field-notes/2026-06-29-teaching-ai-fluency-classical-learning.md",
@@ -87,7 +87,7 @@ export const flashcards = [
   },
   {
     id: "teaching-ai-fluency-real",
-    category: "Education & Learning",
+    category: "Societal Impacts",
     mode: "real_world",
     fieldNoteTitle: "Teaching AI Fluency Feels Like Classical Learning For The AI Era",
     fieldNotePath: "field-notes/2026-06-29-teaching-ai-fluency-classical-learning.md",
