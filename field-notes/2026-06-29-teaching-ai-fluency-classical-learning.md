@@ -27,6 +27,9 @@ The Teaching AI Fluency course put the 4D framework into motion for educators.
 It framed AI Fluency as both descriptive and prescriptive: it maps what happens
 when people work with AI, and it gives educators a structure for helping
 students work with AI more effectively, efficiently, ethically, and safely.
+This builds directly on my earlier note about the 4Ds as a common language for
+human-AI collaboration: [The 4D Framework Is A Common Language For AI
+Collaboration](2026-06-28-4d-framework-common-language.md).
 
 The course organized teaching around practical questions:
 
@@ -158,6 +161,7 @@ I can evaluate an AI-era learning experience with questions like:
 
 ## Sources
 
+- Related field note, "The 4D Framework Is A Common Language For AI Collaboration": [2026-06-28-4d-framework-common-language.md](2026-06-28-4d-framework-common-language.md)
 - Anthropic Academy, "Teaching AI Fluency": https://anthropic.skilljar.com/teaching-ai-fluency
 - Claude by Anthropic, "Education": https://www.anthropic.com/education
 - Teaching AI Fluency course transcripts provided locally: `TAIF_TRANSCRIPT_01_WELCOME.txt`, `TAIF_TRANSCRIPT_02_DEL_DIL.txt`, `TAIF_TRANSCRIPT_04_ASSESS.txt`, `TAIF_TRANSCRIPT_05_ASSIGN.txt`, `TAIF_TRANSCRIPT_06_IMPACT.txt`, and `TAIF_TRANSCRIPT_07_DISCIPLINE.txt`. The transcripts credit Rick Dakan, Joseph Feller, and Anthropic and note a CC BY-NC-SA 4.0 license.
