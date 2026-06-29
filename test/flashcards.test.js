@@ -5,6 +5,7 @@ import { flashcards, cardsForMode } from "../docs/flashcards.js";
 const fieldNotes = [
   "field-notes/2026-06-18-human-ai-interaction.md",
   "field-notes/2026-06-28-4d-framework-common-language.md",
+  "field-notes/2026-06-29-teaching-ai-fluency-classical-learning.md",
   "field-notes/2026-06-18-codex-workflows.md",
   "field-notes/2026-06-19-codex-skill-discovery.md",
   "field-notes/2026-06-19-model-context-output-reasoning.md",

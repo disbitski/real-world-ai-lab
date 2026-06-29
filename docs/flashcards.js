@@ -3,6 +3,7 @@ const NOTE_BASE = `${REPO_BASE}/field-notes`;
 
 export const categories = [
   "Mindset & Collaboration",
+  "Education & Learning",
   "Context & Knowledge",
   "Agent Harness & Operating Environment",
   "Reusable Agent Instructions",
@@ -66,6 +67,35 @@ export const flashcards = [
     answer:
       "A workflow gives Codex context, artifacts, verification, and a repeatable path to follow. That turns a prompt into a reusable way of producing useful work.",
     tags: ["workflow", "codex", "repeatability"],
+    sources: [],
+  },
+  {
+    id: "teaching-ai-fluency-official",
+    category: "Education & Learning",
+    mode: "official",
+    fieldNoteTitle: "Teaching AI Fluency Feels Like Classical Learning For The AI Era",
+    fieldNotePath: "field-notes/2026-06-29-teaching-ai-fluency-classical-learning.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-06-29-teaching-ai-fluency-classical-learning.md`,
+    question: "How does Anthropic's Teaching AI Fluency course recommend assessing AI collaboration?",
+    answer:
+      "The course emphasizes assessing outcomes, process, and reflection together: what students produce, how they worked with AI over time, and what they learned about their own collaboration choices.",
+    tags: ["ai fluency", "education", "assessment"],
+    sources: [
+      { label: "Anthropic Academy Teaching AI Fluency", url: "https://anthropic.skilljar.com/teaching-ai-fluency" },
+      { label: "Anthropic education", url: "https://www.anthropic.com/education" },
+    ],
+  },
+  {
+    id: "teaching-ai-fluency-real",
+    category: "Education & Learning",
+    mode: "real_world",
+    fieldNoteTitle: "Teaching AI Fluency Feels Like Classical Learning For The AI Era",
+    fieldNotePath: "field-notes/2026-06-29-teaching-ai-fluency-classical-learning.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-06-29-teaching-ai-fluency-classical-learning.md`,
+    question: "Why did Teaching AI Fluency make me think about classical education and polymaths?",
+    answer:
+      "It made me think AI will make process and repetition less scarce, while making adaptable cross-disciplinary thinking, discernment, communication, and responsibility more valuable.",
+    tags: ["classical education", "polymath", "discernment"],
     sources: [],
   },
   {

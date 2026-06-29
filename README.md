@@ -33,6 +33,10 @@ Short journal-style notes from hands-on AI workflow experiments:
 - [When Plan Mode Is Useful](field-notes/2026-06-20-when-plan-mode-is-useful.md)
 - [Loops Are The New Prompt Surface](field-notes/2026-06-21-agentic-loops.md)
 
+### Education & Learning
+
+- [Teaching AI Fluency Feels Like Classical Learning For The AI Era](field-notes/2026-06-29-teaching-ai-fluency-classical-learning.md)
+
 ### Context & Knowledge
 
 - [Claude Code Shortcuts Are Context Steering](field-notes/2026-06-23-claude-code-context-shortcuts.md)
