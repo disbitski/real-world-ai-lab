@@ -159,6 +159,19 @@ export const flashcards = [
     sources: [],
   },
   {
+    id: "knowledge-flywheel-real",
+    category: "Mindset & Collaboration",
+    mode: "real_world",
+    fieldNoteTitle: "The Knowledge Flywheel",
+    fieldNotePath: "field-notes/2026-07-04-knowledge-flywheel.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-04-knowledge-flywheel.md`,
+    question: "What is the knowledge flywheel in my AI workflow?",
+    answer:
+      "It is the pattern of turning useful AI conversations into durable assets: field notes, flashcards, social drafts, visuals, schedules, and better workflow rules for the next pass.",
+    tags: ["knowledge flywheel", "field notes", "compounding learning"],
+    sources: [],
+  },
+  {
     id: "shortcuts-official",
     category: "Context & Knowledge",
     mode: "official",

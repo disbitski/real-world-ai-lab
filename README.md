@@ -31,6 +31,7 @@ Short journal-style notes from hands-on AI workflow experiments:
 - [Workflows Are Where Codex Gets Powerful](field-notes/2026-06-18-codex-workflows.md)
 - [When Plan Mode Is Useful](field-notes/2026-06-20-when-plan-mode-is-useful.md)
 - [Loops Are The New Prompt Surface](field-notes/2026-06-21-agentic-loops.md)
+- [The Knowledge Flywheel](field-notes/2026-07-04-knowledge-flywheel.md)
 
 ### Societal Impacts
 
