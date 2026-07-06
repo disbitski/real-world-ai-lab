@@ -172,6 +172,35 @@ export const flashcards = [
     sources: [],
   },
   {
+    id: "claude-j-space-official",
+    category: "Mindset & Collaboration",
+    mode: "official",
+    fieldNoteTitle: "Claude's J-Space And The Wise Old Man",
+    fieldNotePath: "field-notes/2026-07-06-claude-j-space-wise-old-man.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-06-claude-j-space-wise-old-man.md`,
+    question: "What did Anthropic find in Claude's J-space?",
+    answer:
+      "Anthropic found a small set of internal patterns that are more reportable and controllable than other representations, appear during silent reasoning, can causally affect some tasks, and are not required for ordinary fluent text.",
+    tags: ["claude", "interpretability", "j-space"],
+    sources: [
+      { label: "Anthropic global workspace post", url: "https://www.anthropic.com/research/global-workspace" },
+      { label: "Transformer Circuits paper", url: "https://transformer-circuits.pub/2026/workspace/index.html" },
+    ],
+  },
+  {
+    id: "claude-j-space-real",
+    category: "Mindset & Collaboration",
+    mode: "real_world",
+    fieldNoteTitle: "Claude's J-Space And The Wise Old Man",
+    fieldNotePath: "field-notes/2026-07-06-claude-j-space-wise-old-man.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-06-claude-j-space-wise-old-man.md`,
+    question: "How can I use archetypes without overclaiming about AI consciousness?",
+    answer:
+      "I can treat archetypes as a lens for the relationship: useful for reflection and meaning-making, but separate from technical claims about the model's internal mechanisms or subjective experience.",
+    tags: ["archetypes", "consciousness", "discernment"],
+    sources: [],
+  },
+  {
     id: "shortcuts-official",
     category: "Context & Knowledge",
     mode: "official",

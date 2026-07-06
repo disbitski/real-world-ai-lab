@@ -22,6 +22,8 @@ const fieldNotes = [
   "field-notes/2026-06-25-claude-code-hooks-are-local-safety-rails.md",
   "field-notes/2026-06-25-subagents-keep-the-main-thread-clean.md",
   "field-notes/2026-06-26-claude-code-memory-is-a-staging-layer.md",
+  "field-notes/2026-07-04-knowledge-flywheel.md",
+  "field-notes/2026-07-06-claude-j-space-wise-old-man.md",
 ];
 
 test("every field note has at least one flashcard", () => {
