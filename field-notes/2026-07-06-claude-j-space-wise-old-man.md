@@ -260,12 +260,15 @@ responsible after the moment passes.
 - Anthropic: [A global workspace in language models](https://www.anthropic.com/research/global-workspace)
 - Anthropic/Transformer Circuits paper: [A global workspace in language models](https://transformer-circuits.pub/2026/workspace/index.html)
 - Anthropic YouTube companion video: [A global workspace in language models](https://www.youtube.com/watch?v=rKV5JcALQoQ)
-- Carl Jung, [*The Archetypes and the Collective Unconscious*](https://press.princeton.edu/books/paperback/9780691018331/the-archetypes-and-the-collective-unconscious).
-- Benjamin Libet, [*Mind Time: The Temporal Factor in Consciousness*](https://www.hup.harvard.edu/books/9780674013209).
-- David Eagleman, ["Brain Time"](https://www.edge.org/conversation/david_eagleman-brain-time)
-  and related work on time perception.
-- Tor Norretranders, [*The User Illusion*](https://www.penguinrandomhouse.com/books/296196/the-user-illusion-by-tor-norretranders/),
-  as a popular source for the conscious-bandwidth metaphor.
+- Grokipedia: [Carl Jung](https://grokipedia.com/page/Carl_Jung),
+  [Jungian archetypes](https://grokipedia.com/page/Jungian_archetypes),
+  and [collective unconscious](https://grokipedia.com/page/Collective_unconscious).
+- Grokipedia: [Benjamin Libet](https://grokipedia.com/page/Benjamin_Libet)
+  and [consciousness](https://grokipedia.com/page/Consciousness).
+- Grokipedia: [David Eagleman](https://grokipedia.com/page/David_Eagleman)
+  and [time perception](https://grokipedia.com/page/Time_perception).
+- Wikipedia: [*The User Illusion*](https://en.wikipedia.org/wiki/The_User_Illusion),
+  as a fallback source for the conscious-bandwidth metaphor.
 
 ## Working Principle
 
