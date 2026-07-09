@@ -53,6 +53,7 @@ Short journal-style notes from hands-on AI workflow experiments:
 - [Subagents Keep The Main Thread Clean](field-notes/2026-06-25-subagents-keep-the-main-thread-clean.md)
 - [Claude Code Hooks Are Local Safety Rails](field-notes/2026-06-25-claude-code-hooks-are-local-safety-rails.md)
 - [MCP Is The Tool Layer](field-notes/2026-06-23-mcp-is-the-tool-layer.md)
+- [When Unreal MCP Started Feeling Native](field-notes/2026-07-09-unreal-mcp-feels-native.md)
 - [config.toml Is The Harness Environment](field-notes/2026-06-20-config-toml-harness-environment.md)
 - [Locking Down Permissions With Codex Rules](field-notes/2026-06-20-locking-down-permissions-with-codex-rules.md)
 

@@ -471,6 +471,38 @@ export const flashcards = [
     sources: [],
   },
   {
+    id: "unreal-mcp-native-official",
+    category: "Agent Harness & Operating Environment",
+    mode: "official",
+    fieldNoteTitle: "When Unreal MCP Started Feeling Native",
+    fieldNotePath: "field-notes/2026-07-09-unreal-mcp-feels-native.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-09-unreal-mcp-feels-native.md`,
+    question: "How does Unreal MCP expose a large editor tool surface without eagerly loading every tool schema?",
+    answer:
+      "Unreal MCP uses tool-search mode by default. The client discovers list_toolsets, describe_toolset, and call_tool first, then loads and invokes the specific Unreal toolsets needed for the task.",
+    tags: ["unreal", "mcp", "tool search"],
+    sources: [
+      {
+        label: "Epic Games Unreal MCP documentation",
+        url: "https://dev.epicgames.com/documentation/unreal-engine/unreal-mcp-in-unreal-editor",
+      },
+      { label: "OpenAI MCP documentation", url: "https://developers.openai.com/codex/mcp" },
+    ],
+  },
+  {
+    id: "unreal-mcp-native-real",
+    category: "Agent Harness & Operating Environment",
+    mode: "real_world",
+    fieldNoteTitle: "When Unreal MCP Started Feeling Native",
+    fieldNotePath: "field-notes/2026-07-09-unreal-mcp-feels-native.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-09-unreal-mcp-feels-native.md`,
+    question: "What did the improved Unreal MCP session teach me about model-versus-harness attribution?",
+    answer:
+      "The full loop improved, but the app, session, MCP exposure, project state, and model changed together. I can report the end-to-end result, but I should not credit the model alone without a controlled comparison.",
+    tags: ["unreal", "codex", "harness", "evaluation"],
+    sources: [],
+  },
+  {
     id: "config-official",
     category: "Agent Harness & Operating Environment",
     mode: "official",
