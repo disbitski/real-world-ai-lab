@@ -19,7 +19,7 @@ toggle to study only cards grounded in official documentation links.
 
 | Light theme | Dark theme |
 | --- | --- |
-| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-dark.png) |
+| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-41-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-41-dark.png) |
 
 ## Field Notes
 
