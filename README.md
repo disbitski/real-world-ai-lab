@@ -19,7 +19,7 @@ toggle to study only cards grounded in official documentation links.
 
 | Light theme | Dark theme |
 | --- | --- |
-| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-41-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-41-dark.png) |
+| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-43-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-43-dark.png) |
 
 ## Field Notes
 
@@ -33,6 +33,10 @@ Short journal-style notes from hands-on AI workflow experiments:
 - [Loops Are The New Prompt Surface](field-notes/2026-06-21-agentic-loops.md)
 - [The Knowledge Flywheel](field-notes/2026-07-04-knowledge-flywheel.md)
 - [Claude's J-Space And The Wise Old Man](field-notes/2026-07-06-claude-j-space-wise-old-man.md)
+
+### Multi-Agent & Model Collaboration
+
+- [The Best AI Workflow May Be A Team Of Models](field-notes/2026-07-09-best-ai-workflow-team-of-models.md)
 
 ### Societal Impacts
 

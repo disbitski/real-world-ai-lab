@@ -3,6 +3,7 @@ const NOTE_BASE = `${REPO_BASE}/field-notes`;
 
 export const categories = [
   "Mindset & Collaboration",
+  "Multi-Agent & Model Collaboration",
   "Societal Impacts",
   "Context & Knowledge",
   "Agent Harness & Operating Environment",
@@ -198,6 +199,41 @@ export const flashcards = [
     answer:
       "I can treat archetypes as a lens for the relationship: useful for reflection and meaning-making, but separate from technical claims about the model's internal mechanisms or subjective experience.",
     tags: ["archetypes", "consciousness", "discernment"],
+    sources: [],
+  },
+  {
+    id: "multi-model-workflow-official",
+    category: "Multi-Agent & Model Collaboration",
+    mode: "official",
+    fieldNoteTitle: "The Best AI Workflow May Be A Team Of Models",
+    fieldNotePath: "field-notes/2026-07-09-best-ai-workflow-team-of-models.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-09-best-ai-workflow-team-of-models.md`,
+    question: "Which xAI image controls made a reviewed candidate workflow practical?",
+    answer:
+      "Grok Imagine Image Quality supports batch generation plus aspect-ratio and resolution controls. At the current listed price, a 2K output costs $0.07, so a four-candidate review batch costs about $0.28 before retries.",
+    tags: ["xai", "grok imagine", "image generation", "cost"],
+    sources: [
+      {
+        label: "xAI image generation",
+        url: "https://docs.x.ai/developers/model-capabilities/images/generation",
+      },
+      {
+        label: "Grok Imagine Image Quality",
+        url: "https://docs.x.ai/developers/models/grok-imagine-image-quality",
+      },
+    ],
+  },
+  {
+    id: "multi-model-workflow-real",
+    category: "Multi-Agent & Model Collaboration",
+    mode: "real_world",
+    fieldNoteTitle: "The Best AI Workflow May Be A Team Of Models",
+    fieldNotePath: "field-notes/2026-07-09-best-ai-workflow-team-of-models.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-09-best-ai-workflow-team-of-models.md`,
+    question: "Why did a team of specialized AI systems work better for this social-image migration?",
+    answer:
+      "Codex handled research, API integration, prompt iteration, visual QA, repository changes, and verification; Grok Imagine generated the visual candidates; I supplied intent, taste, boundaries, and final approval.",
+    tags: ["multi-model", "codex", "grok", "human judgment"],
     sources: [],
   },
   {
