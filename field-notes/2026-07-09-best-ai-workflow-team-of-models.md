@@ -280,7 +280,6 @@ human understanding and control.
 - xAI: [Video generation](https://docs.x.ai/developers/model-capabilities/video/generation)
 - OpenAI: [Introducing the Codex app](https://openai.com/index/introducing-the-codex-app/)
 - OpenAI: [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)
-- Real World AI Lab: [The reusable field-notes skill](https://github.com/disbitski/codex-field-notes-skill)
 
 ## Working Principle
 
