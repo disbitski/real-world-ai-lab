@@ -364,7 +364,7 @@ the models, pricing, and work change.
 - OpenAI: [GPT-5.6 availability and Codex controls](https://openai.com/index/gpt-5-6/)
 - OpenAI: [Using Codex with a ChatGPT plan](https://help.openai.com/en/articles/11369540-using-codex-with-chatgpt)
 - OpenAI: [ChatGPT release notes for the $100 Pro plan](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
-- Anthropic: [Claude Pro pricing](https://support.anthropic.com/en/articles/8325610-how-much-does-claude-pro-cost)
+- Anthropic: [Claude Pro pricing](https://claude.com/pricing)
 - Anthropic: [Using Claude Code with Pro or Max](https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan)
 - Anthropic: [Claude subscriptions and API billing are separate](https://support.claude.com/en/articles/9876003-i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-do-i-have-to-pay-separately-to-use-the-claude-api-and-console)
 - Anthropic: [Claude Opus 4.8](https://www.anthropic.com/claude/opus)
