@@ -4,6 +4,7 @@ const NOTE_BASE = `${REPO_BASE}/field-notes`;
 export const categories = [
   "Mindset & Collaboration",
   "Multi-Agent & Model Collaboration",
+  "Model Strategy & Economics",
   "Societal Impacts",
   "Context & Knowledge",
   "Agent Harness & Operating Environment",
@@ -234,6 +235,57 @@ export const flashcards = [
     answer:
       "Codex handled research, API integration, prompt iteration, visual QA, repository changes, and verification; Grok Imagine generated the visual candidates; I supplied intent, taste, boundaries, and final approval.",
     tags: ["multi-model", "codex", "grok", "human judgment"],
+    sources: [],
+  },
+  {
+    id: "local-model-memory-official",
+    category: "Model Strategy & Economics",
+    mode: "official",
+    fieldNoteTitle: "My Practical AI Stack: Local Models, Frontier Models, And What They Cost Me",
+    fieldNotePath: "field-notes/2026-07-12-my-practical-ai-stack.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-12-my-practical-ai-stack.md`,
+    question: "Why can a 9.6GB local-model artifact require more than 9.6GB while it is running?",
+    answer:
+      "The artifact size is only one part of the workload. The inference runtime, allocated context and key-value cache, parallel requests, other loaded models, and the rest of the system also consume memory. Ollama recommends using `ollama ps` to inspect what is actually loaded.",
+    tags: ["ollama", "memory", "context", "local models"],
+    sources: [
+      { label: "Ollama FAQ", url: "https://docs.ollama.com/faq" },
+      { label: "Ollama Gemma 4 tags", url: "https://ollama.com/library/gemma4/tags" },
+    ],
+  },
+  {
+    id: "subscription-api-billing-official",
+    category: "Model Strategy & Economics",
+    mode: "official",
+    fieldNoteTitle: "My Practical AI Stack: Local Models, Frontier Models, And What They Cost Me",
+    fieldNotePath: "field-notes/2026-07-12-my-practical-ai-stack.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-12-my-practical-ai-stack.md`,
+    question: "Why should I distinguish subscription access from API billing when comparing model costs?",
+    answer:
+      "A subscription can include access through products such as ChatGPT with Codex or Claude with Claude Code, while direct API usage may follow a separate pay-as-you-go bill. The active authentication path determines which limits and charges apply.",
+    tags: ["subscriptions", "api billing", "codex", "claude"],
+    sources: [
+      {
+        label: "Using Codex with a ChatGPT plan",
+        url: "https://help.openai.com/en/articles/11369540-using-codex-with-chatgpt",
+      },
+      {
+        label: "Claude subscription and API billing",
+        url: "https://support.claude.com/en/articles/9876003-i-have-a-paid-claude-subscription-pro-max-team-or-enterprise-plans-why-do-i-have-to-pay-separately-to-use-the-claude-api-and-console",
+      },
+    ],
+  },
+  {
+    id: "practical-model-routing-real",
+    category: "Model Strategy & Economics",
+    mode: "real_world",
+    fieldNoteTitle: "My Practical AI Stack: Local Models, Frontier Models, And What They Cost Me",
+    fieldNotePath: "field-notes/2026-07-12-my-practical-ai-stack.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-12-my-practical-ai-stack.md`,
+    question: "How do I decide whether a workload belongs on a local model or a frontier model?",
+    answer:
+      "I route it by required capability, available memory, privacy needs, latency, persistence, and billing model. My Mac Studio stays focused on Codex, Unreal, and interactive work, while a separate Mac mini carries persistent Ollama and OpenClaw workloads.",
+    tags: ["model routing", "memory budget", "cost", "apple silicon"],
     sources: [],
   },
   {
