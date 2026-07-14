@@ -1,30 +1,15 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
+import { join } from "node:path";
+import { fileURLToPath } from "node:url";
 import { flashcards, cardsForMode } from "../docs/flashcards.js";
 
-const fieldNotes = [
-  "field-notes/2026-06-18-human-ai-interaction.md",
-  "field-notes/2026-06-28-4d-framework-common-language.md",
-  "field-notes/2026-06-29-teaching-ai-fluency-classical-learning.md",
-  "field-notes/2026-06-18-codex-workflows.md",
-  "field-notes/2026-06-19-codex-skill-discovery.md",
-  "field-notes/2026-06-19-model-context-output-reasoning.md",
-  "field-notes/2026-06-20-agent-harnesses.md",
-  "field-notes/2026-06-20-agents-md-readme-for-agents.md",
-  "field-notes/2026-06-20-config-toml-harness-environment.md",
-  "field-notes/2026-06-20-locking-down-permissions-with-codex-rules.md",
-  "field-notes/2026-06-20-when-plan-mode-is-useful.md",
-  "field-notes/2026-06-21-agentic-loops.md",
-  "field-notes/2026-06-23-claude-code-context-shortcuts.md",
-  "field-notes/2026-06-23-custom-agent-statuslines.md",
-  "field-notes/2026-06-23-mcp-is-the-tool-layer.md",
-  "field-notes/2026-06-23-rag-is-context-work.md",
-  "field-notes/2026-06-25-claude-code-hooks-are-local-safety-rails.md",
-  "field-notes/2026-06-25-subagents-keep-the-main-thread-clean.md",
-  "field-notes/2026-06-26-claude-code-memory-is-a-staging-layer.md",
-  "field-notes/2026-07-04-knowledge-flywheel.md",
-  "field-notes/2026-07-06-claude-j-space-wise-old-man.md",
-];
+const repoRoot = fileURLToPath(new URL("..", import.meta.url));
+const fieldNotes = readdirSync(join(repoRoot, "field-notes"))
+  .filter((name) => name.endsWith(".md"))
+  .sort()
+  .map((name) => `field-notes/${name}`);
 
 test("every field note has at least one flashcard", () => {
   const covered = new Set(flashcards.map((card) => card.fieldNotePath));
@@ -53,5 +38,25 @@ test("official cards include source links and all cards include field-note links
       assert.ok(card.sources.length > 0, `${card.id} should include official sources`);
       assert.equal(card.sources.every((source) => source.label && source.url.startsWith("https://")), true);
     }
+  }
+});
+
+test("README flashcard thumbnails match the current card count", () => {
+  const readme = readFileSync(join(repoRoot, "README.md"), "utf8");
+  const expected = ["light", "dark"].map(
+    (theme) => `docs/assets/real-world-ai-flashcards-${flashcards.length}-${theme}.png`,
+  );
+  const referenced = [...readme.matchAll(
+    /docs\/assets\/real-world-ai-flashcards-\d+-(?:light|dark)\.png/g,
+  )].map((match) => match[0]);
+
+  assert.deepEqual(referenced, expected);
+  for (const relativePath of expected) {
+    const imagePath = join(repoRoot, relativePath);
+    assert.ok(existsSync(imagePath), `${relativePath} should exist`);
+    const image = readFileSync(imagePath);
+    assert.equal(image.subarray(1, 4).toString("ascii"), "PNG");
+    assert.equal(image.readUInt32BE(16), 1440);
+    assert.equal(image.readUInt32BE(20), 1100);
   }
 });
