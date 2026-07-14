@@ -4,6 +4,7 @@ const NOTE_BASE = `${REPO_BASE}/field-notes`;
 export const categories = [
   "Mindset & Collaboration",
   "Multi-Agent & Model Collaboration",
+  "Creative Tools & Game Development",
   "Model Strategy & Economics",
   "Societal Impacts",
   "Context & Knowledge",
@@ -650,6 +651,41 @@ export const flashcards = [
     answer:
       "Use sandbox boundaries first, then add rules for specific command patterns. If a behavior should never happen, do not rely on a reminder in chat.",
     tags: ["permissions", "rules", "safety"],
+    sources: [],
+  },
+  {
+    id: "blender-mcp-game-asset-official",
+    category: "Creative Tools & Game Development",
+    mode: "official",
+    fieldNoteTitle: "From My Amiga 500 To Blender MCP: Building Embermere's First Original Asset",
+    fieldNotePath: "field-notes/2026-07-14-amiga-blender-mcp-embermere.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-14-amiga-blender-mcp-embermere.md`,
+    question: "Which static-mesh details does Unreal's FBX pipeline support directly from a DCC tool such as Blender?",
+    answer:
+      "Unreal's FBX static-mesh pipeline supports geometry, materials, textures, multiple UV sets, smoothing groups, vertex colors, LODs, and custom collision. Those engine-facing contracts are part of the asset, not cleanup to defer until after the render.",
+    tags: ["blender", "unreal engine", "fbx", "game assets"],
+    sources: [
+      {
+        label: "Epic Games FBX Static Mesh Pipeline",
+        url: "https://dev.epicgames.com/documentation/en-us/unreal-engine/fbx-static-mesh-pipeline-in-unreal-engine",
+      },
+      {
+        label: "Blender Foundation history",
+        url: "https://www.blender.org/foundation/history/",
+      },
+    ],
+  },
+  {
+    id: "blender-mcp-game-asset-real",
+    category: "Creative Tools & Game Development",
+    mode: "real_world",
+    fieldNoteTitle: "From My Amiga 500 To Blender MCP: Building Embermere's First Original Asset",
+    fieldNotePath: "field-notes/2026-07-14-amiga-blender-mcp-embermere.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-14-amiga-blender-mcp-embermere.md`,
+    question: "When is an AI-assisted Blender model actually finished for Embermere?",
+    answer:
+      "Not when it renders. It is finished when the reviewed source, ownership, dimensions, transforms, UVs, materials, pivot, collision, Unreal import, saved-map placement, and gameplay regressions all survive inspection.",
+    tags: ["blender mcp", "validation", "unreal engine", "game development"],
     sources: [],
   },
   {

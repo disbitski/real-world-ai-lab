@@ -38,6 +38,10 @@ Short journal-style notes from hands-on AI workflow experiments:
 
 - [The Best AI Workflow May Be A Team Of Models](field-notes/2026-07-09-best-ai-workflow-team-of-models.md)
 
+### Creative Tools & Game Development
+
+- [From My Amiga 500 To Blender MCP: Building Embermere's First Original Asset](field-notes/2026-07-14-amiga-blender-mcp-embermere.md)
+
 ### Model Strategy & Economics
 
 - [My Practical AI Stack: Local Models, Frontier Models, And What They Cost Me](field-notes/2026-07-12-my-practical-ai-stack.md)
