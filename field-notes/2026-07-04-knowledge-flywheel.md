@@ -2,6 +2,8 @@
 
 Date: 2026-07-04
 
+![Editorial product photograph of six unmarked artifacts: a wave pair, notebook, blank card, colored signal dots, prism, and brass jig arranged around a circular knowledge flywheel.](assets/2026-07-04-knowledge-flywheel/hero.webp)
+
 ## Summary
 
 I am starting to see a bigger pattern in the work Codex and I have been doing

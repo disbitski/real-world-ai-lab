@@ -2,6 +2,8 @@
 
 Date: 2026-06-23
 
+![Editorial product photograph of a broad repository map narrowing through three progressively smaller transparent violet, coral, and teal filters into a focused context tray beside a small agent core.](assets/2026-06-23-claude-code-context-shortcuts/hero.webp)
+
 ## Summary
 
 I was working with Claude Code and noticed a practical pattern: Claude can

@@ -2,6 +2,8 @@
 
 Date: 2026-06-23
 
+![Overhead editorial photograph of five document sources feeding through translucent ribbons into one clear context funnel, producing selected cards and one clean output.](assets/2026-06-23-rag-is-context-work/hero.webp)
+
 ## Summary
 
 This morning I learned the name for something Codex and I have already been

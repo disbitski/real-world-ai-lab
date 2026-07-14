@@ -2,6 +2,8 @@
 
 Date: 2026-06-20
 
+![Editorial photograph of two open guidebooks whose teal paths converge on one neutral token, then pass through a shared repository model, test gate, and coral review checkpoint.](assets/2026-06-20-agents-md-readme-for-agents/hero.webp)
+
 ## Summary
 
 `AGENTS.md` is a Markdown instruction file for coding agents. The easiest way

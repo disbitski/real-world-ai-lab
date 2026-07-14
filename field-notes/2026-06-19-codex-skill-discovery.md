@@ -2,6 +2,8 @@
 
 Date: 2026-06-19
 
+![Editorial product photograph of a single modular teal skill cartridge halfway out of a walnut hidden drawer, aligned on a track toward empty shelf slots and a command selector.](assets/2026-06-19-codex-skill-discovery/hero.webp)
+
 ## Summary
 
 Creating a Codex skill is only half the work. The skill also has to live in a

@@ -2,6 +2,8 @@
 
 Date: 2026-06-25
 
+![Editorial photograph of a compact tool carriage moving through three connected amber safety checkpoints on a desktop rail beside a developer laptop.](assets/2026-06-25-claude-code-hooks-are-local-safety-rails/hero.webp)
+
 ## Summary
 
 I am doing more agent work on my Mac Studio M4 Max with 48GB of memory, and the

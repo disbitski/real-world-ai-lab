@@ -2,6 +2,8 @@
 
 Date: 2026-06-20
 
+![Editorial product photograph of a compact graphite control console with seven distinct teal, amber, coral, and cream controls connected to one glowing central core.](assets/2026-06-20-config-toml-harness-environment/hero.webp)
+
 ## Summary
 
 `config.toml` is the final harness-environment layer for Codex. `AGENTS.md`

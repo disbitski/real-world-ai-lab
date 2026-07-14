@@ -2,6 +2,8 @@
 
 Date: 2026-06-18
 
+![Editorial photograph of a six-stage teal-glass and aluminum production line carrying a rough paper token through planning, inspection, editing, verification, and a finished evidence packet.](assets/2026-06-18-codex-workflows/hero.webp)
+
 ## Summary
 
 Codex becomes most useful when it is not treated as a one-off prompt box, but as

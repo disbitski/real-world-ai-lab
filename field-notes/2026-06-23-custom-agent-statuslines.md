@@ -2,6 +2,8 @@
 
 Date: 2026-06-23
 
+![Editorial photograph of one developer with both hands naturally placed on keyboard and mouse at a dual-monitor workstation, where slim colored status strips use simple abstract project and usage indicators.](assets/2026-06-23-custom-agent-statuslines/hero.webp)
+
 ## Summary
 
 I care a lot about terminal environments. Color palettes, fonts, spacing, and

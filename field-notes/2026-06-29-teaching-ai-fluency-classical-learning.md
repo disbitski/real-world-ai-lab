@@ -2,6 +2,8 @@
 
 Date: 2026-06-29
 
+![Editorial photograph of an open geometric study book surrounded by stone, glass, and metal solids, a brass compass, a fountain pen, and a cyan-lit crystal prism.](assets/2026-06-29-teaching-ai-fluency-classical-learning/hero.webp)
+
 ## Summary
 
 Anthropic's Teaching AI Fluency course landed for me because it was not really

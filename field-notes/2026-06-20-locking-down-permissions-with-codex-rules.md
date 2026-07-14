@@ -2,6 +2,8 @@
 
 Date: 2026-06-20
 
+![Editorial security photograph of three command capsules entering a transparent sandbox through separate green open, amber review, and red closed gates toward a dark agent core.](assets/2026-06-20-locking-down-permissions-with-codex-rules/hero.webp)
+
 ## Summary
 
 Codex Rules are a way to make permission decisions durable. They let a team say

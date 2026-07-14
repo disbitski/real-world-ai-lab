@@ -2,6 +2,8 @@
 
 Date: 2026-07-12
 
+![Editorial product photograph of a large graphite creative workstation with blue memory modules and a high-fantasy game display beside a smaller silver local-inference node with green memory modules, connected through a central routing switch.](assets/2026-07-12-my-practical-ai-stack/hero.webp)
+
 ## Summary
 
 My practical AI stack is not local versus frontier.

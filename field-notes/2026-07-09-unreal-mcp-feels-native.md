@@ -2,6 +2,8 @@
 
 Date: 2026-07-09
 
+![Editorial photograph of a game developer using a keyboard and mouse beside a large editor viewport showing Embermere's weathered medieval village, ruined tower, and an AI-assisted tool workflow.](assets/2026-07-09-unreal-mcp-feels-native/hero.webp)
+
 ## Summary
 
 Today my Codex app became the ChatGPT desktop app with Codex mode. The migration

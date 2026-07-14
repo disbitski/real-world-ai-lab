@@ -2,6 +2,8 @@
 
 Date: 2026-06-23
 
+![Editorial product photograph of a central ceramic protocol hub connected by organized cables to four distinct modules for documents, developer tools, data, and permission control.](assets/2026-06-23-mcp-is-the-tool-layer/hero.webp)
+
 ## Summary
 
 I realized we have not written a field note about MCP yet, even though I am

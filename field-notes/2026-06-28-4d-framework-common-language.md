@@ -2,6 +2,8 @@
 
 Date: 2026-06-28
 
+![Editorial product photograph of four unmarked instruments: a brass direction needle, clear framing lens, dark glass prism, and safety latch connected by a continuous brass path.](assets/2026-06-28-4d-framework-common-language/hero.webp)
+
 ## Summary
 
 Over the last couple of days, I learned Anthropic's AI Fluency 4D framework:

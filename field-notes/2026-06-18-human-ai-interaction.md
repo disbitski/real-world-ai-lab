@@ -2,6 +2,8 @@
 
 Date: 2026-06-18
 
+![Editorial photograph of two colleagues reviewing workflow cards and a small prototype together at a bright studio table, with four clearly visible hands.](assets/2026-06-18-human-ai-interaction/hero.webp)
+
 ## Summary
 
 Modern AI systems are most valuable when they accelerate workflows built around

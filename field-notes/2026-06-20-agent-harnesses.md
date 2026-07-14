@@ -2,6 +2,8 @@
 
 Date: 2026-06-20
 
+![Front-facing editorial product photograph of a simple dark core surrounded by seven concentric harness layers made from metal, smoked glass, woven fabric, and color-coded safety rails.](assets/2026-06-20-agent-harnesses/hero.webp)
+
 ## Summary
 
 Two products can use the same underlying model and still feel radically

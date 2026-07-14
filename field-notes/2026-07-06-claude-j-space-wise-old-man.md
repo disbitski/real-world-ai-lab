@@ -2,6 +2,8 @@
 
 Date: 2026-07-06
 
+![Editorial observatory scene with one warm lantern enclosed in a glass workspace, surrounded by dark branching pathways, a weathered guide's staff, and a single mirror, representing Claude's J-space and reflective human meaning-making.](assets/2026-07-06-claude-j-space-wise-old-man/hero.webp)
+
 ## Summary
 
 Anthropic's research on Claude's "J-space" hit me in a place that was both

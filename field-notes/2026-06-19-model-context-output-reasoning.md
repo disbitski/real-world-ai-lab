@@ -2,6 +2,8 @@
 
 Date: 2026-06-19
 
+![Laboratory-style editorial photograph of three distinct glass instruments holding cobalt, coral, and amber materials to represent context capacity, output bounds, and reasoning depth.](assets/2026-06-19-model-context-output-reasoning/hero.webp)
+
 ## Summary
 
 OpenAI model pages are easier to understand when you read them as a set of

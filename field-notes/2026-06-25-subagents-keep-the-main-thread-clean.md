@@ -2,6 +2,8 @@
 
 Date: 2026-06-25
 
+![Editorial product photograph of a central black work rail with three transparent side branches, three contained modules, and three colored result tokens returned to the main path.](assets/2026-06-25-subagents-keep-the-main-thread-clean/hero.webp)
+
 ## Summary
 
 I have been using Claude subagents as a way to answer specific questions

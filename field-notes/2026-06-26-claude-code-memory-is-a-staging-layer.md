@@ -2,6 +2,8 @@
 
 Date: 2026-06-26
 
+![Editorial photograph of a temporary metal memory tray branching by fine white lines to four durable destinations: a guidebook, private drawer, skill cartridge, and locked case.](assets/2026-06-26-claude-code-memory-is-a-staging-layer/hero.webp)
+
 ## Summary
 
 I have been using Claude Code memory as a lightweight way to keep context alive

@@ -2,6 +2,8 @@
 
 Date: 2026-06-20
 
+![Overhead editorial photograph of a hand-drawn planning map with three possible routes, amber decision markers, context cards, and one coral route leading to a closed green toolbox.](assets/2026-06-20-when-plan-mode-is-useful/hero.webp)
+
 ## Summary
 
 Plan Mode is useful when the work needs a conversation before it needs file

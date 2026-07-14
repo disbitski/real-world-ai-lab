@@ -2,6 +2,8 @@
 
 Date: 2026-06-21
 
+![Overhead editorial photograph of a five-station circular workbench showing a small architectural prototype improving through sketch, build, inspection, correction, and final review stages.](assets/2026-06-21-agentic-loops/hero.webp)
+
 ## Summary
 
 I am starting to think that the most important thing I am learning with Codex

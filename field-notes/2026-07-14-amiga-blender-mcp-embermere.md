@@ -2,6 +2,8 @@
 
 Date: 2026-07-14
 
+![Editorial game-development scene with one developer using modeling and high-fantasy game viewports that show the same moss-covered ember waystone, linked by an icon-only AI workflow, with an Amiga computer nearby.](assets/2026-07-14-amiga-blender-mcp-embermere/hero.webp)
+
 ## Summary
 
 In 1987, I saved money from my paper route and my job at McDonald's to buy an

@@ -2,6 +2,8 @@
 
 Date: 2026-07-09
 
+![Editorial photograph of a developer directing two specialized AI modules at a walnut desk, with a graphite reasoning module and an ivory image module connected by blue and amber paths to one central brass routing hub.](assets/2026-07-09-best-ai-workflow-team-of-models/hero.webp)
+
 ## Summary
 
 This field note started because I was not happy with our images.
