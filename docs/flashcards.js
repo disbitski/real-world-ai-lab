@@ -2,15 +2,15 @@ const REPO_BASE = "https://github.com/disbitski/real-world-ai-lab/blob/main";
 const NOTE_BASE = `${REPO_BASE}/field-notes`;
 
 export const categories = [
-  "Building Production Apps",
-  "Mindset & Collaboration",
-  "Multi-Agent & Model Collaboration",
-  "Creative Tools & Game Development",
-  "Model Strategy & Economics",
-  "Societal Impacts",
-  "Context & Knowledge",
   "Agent Harness & Operating Environment",
+  "Building Production Apps",
+  "Context & Knowledge",
+  "Creative Tools & Game Development",
+  "Mindset & Collaboration",
+  "Model Strategy & Economics",
+  "Multi-Agent & Model Collaboration",
   "Reusable Agent Instructions",
+  "Societal Impacts",
 ];
 
 export const flashcards = [

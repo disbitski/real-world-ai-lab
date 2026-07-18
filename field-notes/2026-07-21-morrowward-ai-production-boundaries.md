@@ -2,7 +2,7 @@
 
 Date: 2026-07-21
 
-![A central amber orchestration hub routes through four gated lanes to educator, prices, briefing, and reviewed-media modules.](assets/2026-07-21-morrowward-ai-production-boundaries/hero.webp)
+![The four-bar Morrowward logo anchors four gated lanes leading to educator, prices, briefing, and reviewed-media modules.](assets/2026-07-21-morrowward-ai-production-boundaries/hero.webp)
 
 ## Summary
 
@@ -372,20 +372,20 @@ attribution, and geography with qualified counsel.
 ## Sources
 
 - [Morrowward source repository](https://github.com/disbitski/morrowward)
-- Morrowward, [“AI orchestration and media provenance”](https://github.com/disbitski/morrowward/blob/main/docs/AI_ORCHESTRATION.md)
-- Morrowward, [“Security and privacy notes”](https://github.com/disbitski/morrowward/blob/main/docs/SECURITY_AND_PRIVACY.md)
+- Morrowward, [AI orchestration and media provenance](https://github.com/disbitski/morrowward/blob/main/docs/AI_ORCHESTRATION.md)
+- Morrowward, [Security and privacy notes](https://github.com/disbitski/morrowward/blob/main/docs/SECURITY_AND_PRIVACY.md)
 - Morrowward, [build journal](https://github.com/disbitski/morrowward/blob/main/docs/BUILD_JOURNAL.md)
-- OpenAI, [“Structured model outputs”](https://developers.openai.com/api/docs/guides/structured-outputs)
-- OpenAI, [“Web search”](https://developers.openai.com/api/docs/guides/tools-web-search)
-- OpenAI, [“Data controls in the OpenAI platform”](https://developers.openai.com/api/docs/guides/your-data)
+- OpenAI, [Structured model outputs](https://developers.openai.com/api/docs/guides/structured-outputs)
+- OpenAI, [Web search](https://developers.openai.com/api/docs/guides/tools-web-search)
+- OpenAI, [Data controls in the OpenAI platform](https://developers.openai.com/api/docs/guides/your-data)
 - OpenAI, [API pricing](https://developers.openai.com/api/docs/pricing)
-- OpenAI Help Center, [“How can I set up prepaid billing?”](https://help.openai.com/en/articles/8264644-what-is-prepaid-billing)
-- Devpost, [“OpenAI Build Week FAQs”](https://openai.devpost.com/details/faqs)
-- Vercel, [“Getting started with cron jobs”](https://vercel.com/docs/cron-jobs/quickstart)
-- Vercel, [“Managing Cron Jobs”](https://vercel.com/docs/cron-jobs/manage-cron-jobs)
-- xAI, [“Image Generation”](https://docs.x.ai/developers/model-capabilities/images/generation)
-- xAI, [“Video Generation”](https://docs.x.ai/developers/model-capabilities/video/generation)
-- xAI, [“Text to Speech”](https://docs.x.ai/developers/model-capabilities/audio/text-to-speech)
+- OpenAI Help Center, [How can I set up prepaid billing?](https://help.openai.com/en/articles/8264644-what-is-prepaid-billing)
+- Devpost, [OpenAI Build Week FAQs](https://openai.devpost.com/details/faqs)
+- Vercel, [Getting started with cron jobs](https://vercel.com/docs/cron-jobs/quickstart)
+- Vercel, [Managing Cron Jobs](https://vercel.com/docs/cron-jobs/manage-cron-jobs)
+- xAI, [Image Generation](https://docs.x.ai/developers/model-capabilities/images/generation)
+- xAI, [Video Generation](https://docs.x.ai/developers/model-capabilities/video/generation)
+- xAI, [Text to Speech](https://docs.x.ai/developers/model-capabilities/audio/text-to-speech)
 
 ## Working Principle
 

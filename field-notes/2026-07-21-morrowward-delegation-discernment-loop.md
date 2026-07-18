@@ -2,7 +2,7 @@
 
 Date: 2026-07-21
 
-![A human builder reviews a tablet prototype through a clear lens beside a faceless AI workstation, connected by one closed brass build-and-review loop.](assets/2026-07-21-morrowward-delegation-discernment-loop/hero.webp)
+![A human builder reviews a tablet beside a clear nonhumanoid AI workstation, connected by a rectangular brass circuit around the four-bar Morrowward logo.](assets/2026-07-21-morrowward-delegation-discernment-loop/hero.webp)
 
 ## Summary
 

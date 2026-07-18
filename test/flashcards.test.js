@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { flashcards, cardsForMode } from "../docs/flashcards.js";
+import { flashcards, cardsForMode, categories } from "../docs/flashcards.js";
 
 const repoRoot = fileURLToPath(new URL("..", import.meta.url));
 const fieldNotes = readdirSync(join(repoRoot, "field-notes"))
@@ -59,4 +59,16 @@ test("README flashcard thumbnails match the current card count", () => {
     assert.equal(image.readUInt32BE(16), 1440);
     assert.equal(image.readUInt32BE(20), 1100);
   }
+});
+
+test("field-note categories stay alphabetized across README and flashcards", () => {
+  const readme = readFileSync(join(repoRoot, "README.md"), "utf8");
+  const fieldNotesSection = readme.split("## Field Notes\n", 2)[1];
+  const readmeCategories = [...fieldNotesSection.matchAll(/^### (.+)$/gm)].map(
+    (match) => match[1],
+  );
+  const sorted = [...categories].sort((left, right) => left.localeCompare(right));
+
+  assert.deepEqual(categories, sorted);
+  assert.deepEqual(readmeCategories, categories);
 });

@@ -2,7 +2,7 @@
 
 Date: 2026-07-21
 
-![A creator moves an idea from a hand-drawn arc across four brass stages into matching web, phone, and laptop experiences at sunrise.](assets/2026-07-21-openai-build-week-four-days/hero.webp)
+![A creator moves an idea up four dark stages toward three cross-device experiences surrounding the four-bar Morrowward logo at sunrise.](assets/2026-07-21-openai-build-week-four-days/hero.webp)
 
 ## Summary
 
@@ -245,14 +245,14 @@ I can evaluate future build-week experiences with questions like:
 
 ## Sources
 
-- OpenAI, [“OpenAI Build Week”](https://openai.com/build-week/)
-- Devpost, [“OpenAI Build Week Schedule”](https://openai.devpost.com/details/dates)
-- Devpost, [“OpenAI Build Week Resources”](https://openai.devpost.com/resources)
-- Devpost, [“OpenAI Build Week FAQs”](https://openai.devpost.com/details/faqs)
+- OpenAI, [OpenAI Build Week](https://openai.com/build-week/)
+- Devpost, [OpenAI Build Week Schedule](https://openai.devpost.com/details/dates)
+- Devpost, [OpenAI Build Week Resources](https://openai.devpost.com/resources)
+- Devpost, [OpenAI Build Week FAQs](https://openai.devpost.com/details/faqs)
 - Morrowward, [build journal](https://github.com/disbitski/morrowward/blob/main/docs/BUILD_JOURNAL.md)
-- APA Dictionary of Psychology, [“openness to experience”](https://dictionary.apa.org/openness-to-experience)
-- Da Costa, Páez, Sánchez, Garaigordobil, and Gondim, [“Personal factors of creativity: A second order meta-analysis”](https://doi.org/10.1016/j.rpto.2015.06.002), *Revista de Psicología del Trabajo y de las Organizaciones* 31(3), 2015
-- The Myers & Briggs Foundation, [“Myers-Briggs Overview”](https://www.myersbriggs.org/my-mbti-personality-type/myers-briggs-overview/)
+- APA Dictionary of Psychology, [openness to experience](https://dictionary.apa.org/openness-to-experience)
+- Da Costa, Páez, Sánchez, Garaigordobil, and Gondim, [Personal factors of creativity: A second order meta-analysis](https://doi.org/10.1016/j.rpto.2015.06.002), *Revista de Psicología del Trabajo y de las Organizaciones* 31(3), 2015
+- The Myers & Briggs Foundation, [Myers-Briggs Overview](https://www.myersbriggs.org/my-mbti-personality-type/myers-briggs-overview/)
 
 ## Working Principle
 
