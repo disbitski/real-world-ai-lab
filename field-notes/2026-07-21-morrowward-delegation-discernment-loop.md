@@ -2,7 +2,7 @@
 
 Date: 2026-07-21
 
-![A human builder reviews a tablet beside a clear nonhumanoid AI workstation, connected by a rectangular brass circuit around the four-bar Morrowward logo.](assets/2026-07-21-morrowward-delegation-discernment-loop/hero.webp)
+![A seated human builder works at a two-monitor desk: Codex runs on the left screen, Morrowward's Market Journey Lab fills the larger right screen, and a Morrowward logo glows on an iPad beside a Mac Studio.](assets/2026-07-21-morrowward-delegation-discernment-loop/hero.webp)
 
 ## Summary
 
