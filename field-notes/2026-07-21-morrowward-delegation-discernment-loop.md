@@ -29,7 +29,7 @@ cycle inside that division of work: describe the desired product, build it,
 use it, judge it, and refine the description from evidence.
 
 The result is visible in more than the finished interface. Morrowward's
-[contemporaneous build journal](https://github.com/disbitski/morrowward/blob/main/docs/BUILD_JOURNAL.md)
+[build journal](https://github.com/disbitski/morrowward/blob/main/docs/BUILD_JOURNAL.md)
 was updated across 30 commits while the complete repository grew to 44 commits.
 It records the ideas I introduced, the alternatives we rejected, the tests
 Codex ran, and the moments when hands-on use changed the product. Delegation
