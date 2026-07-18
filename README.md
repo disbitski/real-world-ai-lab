@@ -38,10 +38,6 @@ Short journal-style notes from hands-on AI workflow experiments:
 
 ### Building Production Apps
 
-Case studies from taking AI-assisted products from idea to working production
-software. The first series follows Morrowward, built with GPT-5.6 and Codex in
-four days during OpenAI Build Week.
-
 - [The Loop That Built Morrowward: Delegation, Discernment, and Four Days of Human–AI Work](field-notes/2026-07-21-morrowward-delegation-discernment-loop.md)
 - [OpenAI Build Week: From a QR Code to Production in Four Days](field-notes/2026-07-21-openai-build-week-four-days.md)
 - [Shipping Morrowward’s AI Meant Designing Boundaries, Not Just Prompts](field-notes/2026-07-21-morrowward-ai-production-boundaries.md)
