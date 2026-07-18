@@ -2,6 +2,7 @@ const REPO_BASE = "https://github.com/disbitski/real-world-ai-lab/blob/main";
 const NOTE_BASE = `${REPO_BASE}/field-notes`;
 
 export const categories = [
+  "Building Production Apps",
   "Mindset & Collaboration",
   "Multi-Agent & Model Collaboration",
   "Creative Tools & Game Development",
@@ -745,6 +746,109 @@ export const flashcards = [
     answer:
       "The source file, installed copy, metadata, and picker/discovery path all matter. Reusable instructions need packaging and discovery, not just good prose.",
     tags: ["skills", "packaging", "workflow"],
+    sources: [],
+  },
+  {
+    id: "morrowward-description-discernment-official",
+    category: "Building Production Apps",
+    mode: "official",
+    fieldNoteTitle: "The Loop That Built Morrowward: Delegation, Discernment, and Four Days of Human–AI Work",
+    fieldNotePath: "field-notes/2026-07-21-morrowward-delegation-discernment-loop.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-21-morrowward-delegation-discernment-loop.md`,
+    question: "How are Delegation and the Description–Discernment Loop different in Anthropic's AI Fluency framework?",
+    answer:
+      "Delegation chooses which work a human should do, which work AI should do, and which work they should do together. The Description–Discernment Loop then repeats: describe the desired product, process, and collaboration; evaluate the output and behavior; refine the description; and try again.",
+    tags: ["delegation", "description", "discernment", "ai fluency"],
+    sources: [
+      {
+        label: "Anthropic AI Fluency: Description–Discernment Loop",
+        url: "https://www.anthropic.com/ai-fluency/description-discernment-loop",
+      },
+      {
+        label: "Anthropic AI Fluency: Delegation",
+        url: "https://www.anthropic.com/ai-fluency/ai-fluency-delegation",
+      },
+    ],
+  },
+  {
+    id: "morrowward-description-discernment-real",
+    category: "Building Production Apps",
+    mode: "real_world",
+    fieldNoteTitle: "The Loop That Built Morrowward: Delegation, Discernment, and Four Days of Human–AI Work",
+    fieldNotePath: "field-notes/2026-07-21-morrowward-delegation-discernment-loop.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-21-morrowward-delegation-discernment-loop.md`,
+    question: "What made Morrowward's four-day human–AI collaboration inspectable instead of merely fast?",
+    answer:
+      "I kept mission, product taste, risk boundaries, hands-on use, and final acceptance human; Codex handled much of the implementation and verification; repeated build–use–judge–refine cycles corrected the product; and a contemporaneous journal updated across 30 of 44 commits preserved the decisions and evidence.",
+    tags: ["morrowward", "build journal", "human judgment", "codex"],
+    sources: [],
+  },
+  {
+    id: "openai-build-week-schedule-official",
+    category: "Building Production Apps",
+    mode: "official",
+    fieldNoteTitle: "OpenAI Build Week: From a QR Code to Production in Four Days",
+    fieldNotePath: "field-notes/2026-07-21-openai-build-week-four-days.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-21-openai-build-week-four-days.md`,
+    question: "What official schedule and support structure framed OpenAI Build Week in July 2026?",
+    answer:
+      "Submissions opened July 13 and closed July 21 at 5:00 p.m. Pacific. OpenAI and Devpost paired that focused build window with rules, resources, live sessions, community events, Discord, FAQs, and submission guidance for builders at different experience levels.",
+    tags: ["openai build week", "devpost", "schedule", "community"],
+    sources: [
+      { label: "OpenAI Build Week", url: "https://openai.com/build-week/" },
+      {
+        label: "OpenAI Build Week schedule on Devpost",
+        url: "https://openai.devpost.com/details/dates",
+      },
+      { label: "OpenAI Build Week resources", url: "https://openai.devpost.com/resources" },
+    ],
+  },
+  {
+    id: "openai-build-week-four-days-real",
+    category: "Building Production Apps",
+    mode: "real_world",
+    fieldNoteTitle: "OpenAI Build Week: From a QR Code to Production in Four Days",
+    fieldNotePath: "field-notes/2026-07-21-openai-build-week-four-days.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-21-openai-build-week-four-days.md`,
+    question: "How did OpenAI Build Week turn Morrowward from a personal idea into production software in four calendar days?",
+    answer:
+      "The event supplied a deadline and a complete submission target. I supplied the lived mission, creative direction, daily product use, and judgment; Codex helped scope, implement, test, deploy, and document a complete web, iPhone, and Mac experience across 44 commits from July 14 through July 17.",
+    tags: ["openai build week", "morrowward", "shipping", "creative builders"],
+    sources: [],
+  },
+  {
+    id: "morrowward-production-boundaries-official",
+    category: "Building Production Apps",
+    mode: "official",
+    fieldNoteTitle: "Shipping Morrowward’s AI Meant Designing Boundaries, Not Just Prompts",
+    fieldNotePath: "field-notes/2026-07-21-morrowward-ai-production-boundaries.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-21-morrowward-ai-production-boundaries.md`,
+    question: "What do strict structured outputs and `store: false` control—and what do they not prove?",
+    answer:
+      "A strict structured-output schema constrains a model response to an expected shape, while `store: false` tells the Responses API not to retain the response object for later retrieval. Neither setting proves that claims, citations, timestamps, or asset identities are correct, so application validation and safe failure behavior are still required.",
+    tags: ["structured outputs", "data controls", "validation", "openai api"],
+    sources: [
+      {
+        label: "OpenAI Structured Outputs",
+        url: "https://developers.openai.com/api/docs/guides/structured-outputs",
+      },
+      {
+        label: "OpenAI API data controls",
+        url: "https://developers.openai.com/api/docs/guides/your-data",
+      },
+    ],
+  },
+  {
+    id: "morrowward-production-boundaries-real",
+    category: "Building Production Apps",
+    mode: "real_world",
+    fieldNoteTitle: "Shipping Morrowward’s AI Meant Designing Boundaries, Not Just Prompts",
+    fieldNotePath: "field-notes/2026-07-21-morrowward-ai-production-boundaries.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-21-morrowward-ai-production-boundaries.md`,
+    question: "What production boundary kept Morrowward useful when AI or network services were unavailable?",
+    answer:
+      "The financial simulator, projections, practice accounting, migrations, and offline behavior remained deterministic TypeScript. Ask Morrow, daily prices, daily briefing, and build-time media were separate bounded lanes with minimal context, validation, caching, rate controls, circuit breakers, and safe fallbacks.",
+    tags: ["morrowward", "deterministic core", "safe fallbacks", "ai boundaries"],
     sources: [],
   },
 ];
