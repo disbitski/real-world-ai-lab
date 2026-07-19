@@ -690,6 +690,37 @@ export const flashcards = [
     sources: [],
   },
   {
+    id: "embermere-fbx-collision-official",
+    category: "Creative Tools & Game Development",
+    mode: "official",
+    fieldNoteTitle: "From One Waystone to a World: The Acceptance Loop Behind Embermere",
+    fieldNotePath: "field-notes/2026-07-22-embermere-asset-acceptance-loop.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-22-embermere-asset-acceptance-loop.md`,
+    question: "How does Unreal's FBX pipeline associate authored custom collision with a static mesh?",
+    answer:
+      "Epic's FBX pipeline recognizes collision meshes named with UBX, UCP, USP, or UCX prefixes followed by the render-mesh name and an optional numbered suffix. The importer associates those collision shapes with the matching static mesh.",
+    tags: ["unreal engine", "fbx", "custom collision", "game assets"],
+    sources: [
+      {
+        label: "Epic Games FBX Static Mesh Pipeline",
+        url: "https://dev.epicgames.com/documentation/en-us/unreal-engine/fbx-static-mesh-pipeline-in-unreal-engine",
+      },
+    ],
+  },
+  {
+    id: "embermere-asset-acceptance-loop-real",
+    category: "Creative Tools & Game Development",
+    mode: "real_world",
+    fieldNoteTitle: "From One Waystone to a World: The Acceptance Loop Behind Embermere",
+    fieldNotePath: "field-notes/2026-07-22-embermere-asset-acceptance-loop.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-22-embermere-asset-acceptance-loop.md`,
+    question: "When does an AI-assisted asset actually belong in Embermere's world?",
+    answer:
+      "A deterministic Blender, FBX, and Unreal contract makes the asset technically eligible. It belongs only after route traversal, PIE inspection, builds, regression tests, and my visual and gameplay judgment accept it in context.",
+    tags: ["embermere", "acceptance loop", "human judgment", "blender mcp"],
+    sources: [],
+  },
+  {
     id: "agents-md-official",
     category: "Reusable Agent Instructions",
     mode: "official",

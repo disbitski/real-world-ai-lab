@@ -19,7 +19,7 @@ toggle to study only cards grounded in official documentation links.
 
 | Light theme | Dark theme |
 | --- | --- |
-| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-54-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-54-dark.png) |
+| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-56-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-56-dark.png) |
 
 ## Field Notes
 
@@ -52,6 +52,7 @@ Short journal-style notes from hands-on AI workflow experiments:
 ### Creative Tools & Game Development
 
 - [From My Amiga 500 To Blender MCP: Building Embermere's First Original Asset](field-notes/2026-07-14-amiga-blender-mcp-embermere.md)
+- [From One Waystone to a World: The Acceptance Loop Behind Embermere](field-notes/2026-07-22-embermere-asset-acceptance-loop.md)
 
 ### Mindset & Collaboration
 
