@@ -243,12 +243,14 @@ I can evaluate future build-week experiences with questions like:
   real bug?
 - Would another person be able to inspect, run, and learn from what was built?
 
+## Continue The Morrowward Journey
+
+The four-day build is only one layer of the Morrowward story. I wrote two companion field notes that go deeper into the human-AI collaboration loop behind the project and the production boundaries that made its AI useful, inspectable, and safe.
+
+- **Follow the collaboration journey:** [The Loop That Built Morrowward: Delegation, Discernment, and Four Days of Human-AI Work](2026-07-21-morrowward-delegation-discernment-loop.md)
+- **Explore the production architecture:** [Shipping Morrowward's AI Meant Designing Boundaries, Not Just Prompts](2026-07-21-morrowward-ai-production-boundaries.md)
+
 ## Sources
-
-I wrote two additional Morrowward field notes for readers who want to go deeper into how the project was built. The first follows the human-AI collaboration loop that carried the work across four days; the second explains the production boundaries that kept Morrowward's AI useful, inspectable, and safe.
-
-- [The Loop That Built Morrowward: Delegation, Discernment, and Four Days of Human-AI Work](2026-07-21-morrowward-delegation-discernment-loop.md)
-- [Shipping Morrowward's AI Meant Designing Boundaries, Not Just Prompts](2026-07-21-morrowward-ai-production-boundaries.md)
 
 - OpenAI, [OpenAI Build Week](https://openai.com/build-week/)
 - Devpost, [OpenAI Build Week Schedule](https://openai.devpost.com/details/dates)
