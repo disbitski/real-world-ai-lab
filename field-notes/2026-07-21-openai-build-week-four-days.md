@@ -249,6 +249,7 @@ The four-day build is only one layer of the Morrowward story. I wrote two compan
 
 - **Follow the collaboration journey:** [The Loop That Built Morrowward: Delegation, Discernment, and Four Days of Human-AI Work](2026-07-21-morrowward-delegation-discernment-loop.md)
 - **Explore the production architecture:** [Shipping Morrowward's AI Meant Designing Boundaries, Not Just Prompts](2026-07-21-morrowward-ai-production-boundaries.md)
+- **Read the full day-by-day developer journal:** [Morrowward Build Journal](https://github.com/disbitski/morrowward/blob/main/docs/BUILD_JOURNAL.md) records what we learned, changed, and shipped during each day of the build.
 
 ## Sources
 
@@ -256,7 +257,6 @@ The four-day build is only one layer of the Morrowward story. I wrote two compan
 - Devpost, [OpenAI Build Week Schedule](https://openai.devpost.com/details/dates)
 - Devpost, [OpenAI Build Week Resources](https://openai.devpost.com/resources)
 - Devpost, [OpenAI Build Week FAQs](https://openai.devpost.com/details/faqs)
-- Morrowward, [build journal](https://github.com/disbitski/morrowward/blob/main/docs/BUILD_JOURNAL.md)
 - APA Dictionary of Psychology, [openness to experience](https://dictionary.apa.org/openness-to-experience)
 - Da Costa, Páez, Sánchez, Garaigordobil, and Gondim, [Personal factors of creativity: A second order meta-analysis](https://doi.org/10.1016/j.rpto.2015.06.002), *Revista de Psicología del Trabajo y de las Organizaciones* 31(3), 2015
 - The Myers & Briggs Foundation, [Myers-Briggs Overview](https://www.myersbriggs.org/my-mbti-personality-type/myers-briggs-overview/)

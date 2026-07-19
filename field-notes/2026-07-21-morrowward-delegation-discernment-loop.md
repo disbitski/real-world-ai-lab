@@ -311,9 +311,16 @@ week later, ask whether another builder can explain why the implementation is
 the way it is and confidently change it. That tests whether the collaboration
 left durable understanding, not just more software.
 
+## Continue The Morrowward Journey
+
+The collaboration loop is one part of the larger Morrowward story. I also wrote about how a QR code became a production experience in four days and how explicit AI boundaries made that experience useful, inspectable, and safe.
+
+- **Start with the four-day build story:** [OpenAI Build Week: From a QR Code to Production in Four Days](2026-07-21-openai-build-week-four-days.md)
+- **Explore the production architecture:** [Shipping Morrowward's AI Meant Designing Boundaries, Not Just Prompts](2026-07-21-morrowward-ai-production-boundaries.md)
+- **Read the full day-by-day developer journal:** [Morrowward Build Journal](https://github.com/disbitski/morrowward/blob/main/docs/BUILD_JOURNAL.md) records what we learned, changed, and shipped during each day of the build.
+
 ## Sources
 
-- [Morrowward build journal](https://github.com/disbitski/morrowward/blob/main/docs/BUILD_JOURNAL.md)
 - [The 30 commits that updated the Morrowward build journal](https://github.com/disbitski/morrowward/commits/main/docs/BUILD_JOURNAL.md)
 - [Morrowward repository history](https://github.com/disbitski/morrowward/commits/main/)
 - [Anthropic, AI Fluency Framework overview](https://www.anthropic.com/ai-fluency/overview)

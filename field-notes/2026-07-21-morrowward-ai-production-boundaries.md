@@ -369,12 +369,19 @@ attribution, and geography with qualified counsel.
 - Are data-source licensing and display decisions reviewed separately from
   technical citation validation?
 
+## Continue The Morrowward Journey
+
+The production boundaries are one part of the larger Morrowward story. I also wrote about the four-day Build Week journey that started it and the human-AI collaboration loop that kept the product moving without giving up judgment or intent.
+
+- **Start with the four-day build story:** [OpenAI Build Week: From a QR Code to Production in Four Days](2026-07-21-openai-build-week-four-days.md)
+- **Follow the collaboration journey:** [The Loop That Built Morrowward: Delegation, Discernment, and Four Days of Human-AI Work](2026-07-21-morrowward-delegation-discernment-loop.md)
+- **Read the full day-by-day developer journal:** [Morrowward Build Journal](https://github.com/disbitski/morrowward/blob/main/docs/BUILD_JOURNAL.md) records what we learned, changed, and shipped during each day of the build.
+
 ## Sources
 
 - [Morrowward source repository](https://github.com/disbitski/morrowward)
 - Morrowward, [AI orchestration and media provenance](https://github.com/disbitski/morrowward/blob/main/docs/AI_ORCHESTRATION.md)
 - Morrowward, [Security and privacy notes](https://github.com/disbitski/morrowward/blob/main/docs/SECURITY_AND_PRIVACY.md)
-- Morrowward, [build journal](https://github.com/disbitski/morrowward/blob/main/docs/BUILD_JOURNAL.md)
 - OpenAI, [Structured model outputs](https://developers.openai.com/api/docs/guides/structured-outputs)
 - OpenAI, [Web search](https://developers.openai.com/api/docs/guides/tools-web-search)
 - OpenAI, [Data controls in the OpenAI platform](https://developers.openai.com/api/docs/guides/your-data)
