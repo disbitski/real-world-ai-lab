@@ -10,10 +10,10 @@ On July 14, I watched an OpenAI Codex video on LinkedIn about what was new for
 developers. A QR code appeared at the end. I scanned it, landed on the OpenAI
 Build Week page, and realized the challenge had opened the day before.
 
-Four calendar days later, Codex and I had taken Morrowward from an idea about
+Four calendar days later, Codex and I had taken [Morrowward](https://github.com/disbitski/morrowward) from an idea about
 financial hope to a production web app, installable PWA, iPhone and Mac
-companion shells, public demo video, documented build history, and complete
-Devpost submission. The first repository commit landed on July 14. We submitted
+companion shells, public demo video, documented build history, and [complete
+Devpost submission](https://devpost.com/software/morrowward). The first repository commit landed on July 14. We submitted
 on July 17, then fixed the final user-discovered input bug that evening. The
 four-day history contains 44 commits.
 
