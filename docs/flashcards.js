@@ -815,6 +815,37 @@ export const flashcards = [
     sources: [],
   },
   {
+    id: "macres4k-codex-workflow-official",
+    category: "Building Production Apps",
+    mode: "official",
+    fieldNoteTitle: "From Morrowward to MacRes4K—When AI-Built Experience Compounds",
+    fieldNotePath: "field-notes/2026-07-21-building-macres4k-with-codex.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-21-building-macres4k-with-codex.md`,
+    question: "Which Codex workflow practices made a small native utility trustworthy instead of merely fast to generate?",
+    answer:
+      "Give Codex a concrete goal, relevant context, constraints, and an observable definition of done; then have it add tests, run the right checks, confirm behavior, and review the result. The human still evaluates the app on its real hardware and accepts the final experience.",
+    tags: ["codex", "testing", "verification", "native app"],
+    sources: [
+      {
+        label: "OpenAI Codex best practices",
+        url: "https://learn.chatgpt.com/guides/best-practices",
+      },
+    ],
+  },
+  {
+    id: "macres4k-exact-mode-contract-real",
+    category: "Building Production Apps",
+    mode: "real_world",
+    fieldNoteTitle: "From Morrowward to MacRes4K—When AI-Built Experience Compounds",
+    fieldNotePath: "field-notes/2026-07-21-building-macres4k-with-codex.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-21-building-macres4k-with-codex.md`,
+    question: "Why does MacRes4K classify 1080p HiDPI by both logical and physical dimensions?",
+    answer:
+      "The label 1920×1080 is ambiguous. MacRes4K accepts it only when the logical workspace is 1920×1080 and the physical pixel grid is 3840×2160, so ordinary low-resolution 1920×1080 can never be selected by mistake.",
+    tags: ["macres4k", "hidpi", "coregraphics", "exact contracts"],
+    sources: [],
+  },
+  {
     id: "openai-build-week-schedule-official",
     category: "Building Production Apps",
     mode: "official",

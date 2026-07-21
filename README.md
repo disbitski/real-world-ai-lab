@@ -19,7 +19,7 @@ toggle to study only cards grounded in official documentation links.
 
 | Light theme | Dark theme |
 | --- | --- |
-| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-56-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-56-dark.png) |
+| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-58-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-58-dark.png) |
 
 ## Field Notes
 
@@ -38,6 +38,7 @@ Short journal-style notes from hands-on AI workflow experiments:
 
 ### Building Production Apps
 
+- [From Morrowward to MacRes4K—When AI-Built Experience Compounds](field-notes/2026-07-21-building-macres4k-with-codex.md)
 - [The Loop That Built Morrowward: Delegation, Discernment, and Four Days of Human–AI Work](field-notes/2026-07-21-morrowward-delegation-discernment-loop.md)
 - [OpenAI Build Week: From a QR Code to Production in Four Days](field-notes/2026-07-21-openai-build-week-four-days.md)
 - [Shipping Morrowward’s AI Meant Designing Boundaries, Not Just Prompts](field-notes/2026-07-21-morrowward-ai-production-boundaries.md)
