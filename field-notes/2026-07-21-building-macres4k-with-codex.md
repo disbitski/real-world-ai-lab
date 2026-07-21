@@ -8,6 +8,12 @@ Date: 2026-07-21
 
 MacRes4K began with a small irritation that kept interrupting something I enjoy.
 
+<p align="center">
+  <a href="https://github.com/disbitski/MacRes4K">
+    <img src="assets/2026-07-21-building-macres4k-with-codex/macres4k-app-icon.png" alt="MacRes4K app icon featuring a blue-and-violet 4K display" width="260">
+  </a>
+</p>
+
 My normal desktop setting on a 4K monitor is 1920×1080 HiDPI. macOS gives me
 the comfortable size of a 1080p workspace while rendering it with the full
 3840×2160 physical pixel grid. It is the right setting for everyday desktop
