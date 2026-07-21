@@ -32,6 +32,9 @@ HiDPI and native 4K modes, preserves refresh rate when possible, starts at
 login, restores the desktop-friendly mode when it quits, has no Dock icon or
 window, and ships as an ad-hoc-signed universal application.
 
+The complete [MacRes4K source, build instructions, and universal
+release](https://github.com/disbitski/MacRes4K) are available on GitHub.
+
 The project was small, but it did not start from zero. Four days building
 Morrowward had already taught Codex and me how to move through Xcode targets,
 Apple-platform builds, device behavior, packaging, verification, and visual
@@ -239,6 +242,7 @@ home on the platform, and removes everything the user does not need.
 - Apple Developer Documentation, [CGDisplaySetDisplayMode](https://developer.apple.com/documentation/coregraphics/cgdisplaysetdisplaymode(_:_:_:))
 - Apple Developer Documentation, [SMAppService.mainApp](https://developer.apple.com/documentation/servicemanagement/smappservice/mainapp)
 - OpenAI, [Codex best practices](https://learn.chatgpt.com/guides/best-practices)
+- [MacRes4K source repository and README](https://github.com/disbitski/MacRes4K)
 - [The Loop That Built Morrowward: Delegation, Discernment, and Four Days of Human–AI Work](2026-07-21-morrowward-delegation-discernment-loop.md)
 - [OpenAI Build Week: From a QR Code to Production in Four Days](2026-07-21-openai-build-week-four-days.md)
 
