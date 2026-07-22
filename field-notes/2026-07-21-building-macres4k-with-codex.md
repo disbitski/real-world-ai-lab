@@ -151,7 +151,7 @@ monitor-and-4K artwork in Finder.
 
 ## Morrowward Made The Next Xcode Project Faster
 
-Morrowward was a much larger product: a web application plus iPhone and Mac
+[Morrowward](https://github.com/disbitski/morrowward) was a much larger product: a web application plus iPhone and Mac
 companions, built during OpenAI Build Week. MacRes4K is deliberately tiny. The
 domains are different, but the collaboration experience transferred directly.
 
