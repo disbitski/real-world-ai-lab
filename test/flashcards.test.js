@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { shuffleDeck } from "../docs/flashcard-deck.js";
 import { flashcards, cardsForMode, categories } from "../docs/flashcards.js";
 
 const repoRoot = fileURLToPath(new URL("..", import.meta.url));
@@ -71,4 +72,32 @@ test("field-note categories stay alphabetized across README and flashcards", () 
 
   assert.deepEqual(categories, sorted);
   assert.deepEqual(readmeCategories, categories);
+});
+
+test("shuffle creates a new deck order without mutating the source cards", () => {
+  const cards = [{ id: "a" }, { id: "b" }, { id: "c" }, { id: "d" }];
+  const randomValues = [0.1, 0.9, 0.2];
+  const shuffled = shuffleDeck(cards, undefined, () => randomValues.shift());
+
+  assert.deepEqual(cards.map((card) => card.id), ["a", "b", "c", "d"]);
+  assert.deepEqual(shuffled.map((card) => card.id), ["b", "d", "c", "a"]);
+});
+
+test("shuffle advances away from the currently displayed card", () => {
+  const cards = [{ id: "a" }, { id: "b" }, { id: "c" }];
+  const shuffled = shuffleDeck(cards, "a", () => 0.99);
+
+  assert.notEqual(shuffled[0].id, "a");
+  assert.deepEqual(
+    [...shuffled].map((card) => card.id).sort(),
+    ["a", "b", "c"],
+  );
+});
+
+test("rendering preserves the shuffled deck instead of rebuilding the original order", () => {
+  const html = readFileSync(join(repoRoot, "docs/index.html"), "utf8");
+  const renderCard = html.match(/function renderCard\(\) \{([\s\S]*?)^      \}/m)?.[1] || "";
+
+  assert.doesNotMatch(renderCard, /activeCards\s*=\s*getFilteredCards/);
+  assert.match(html, /activeCards = shuffleDeck\(activeCards, current\);/);
 });

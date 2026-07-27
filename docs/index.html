@@ -80,6 +80,7 @@
     </main>
 
     <script type="module">
+      import { shuffleDeck } from "./flashcard-deck.js";
       import { categories, cardsForMode } from "./flashcards.js";
 
       const elements = {
@@ -135,8 +136,12 @@
         );
       }
 
-      function renderCard() {
+      function refreshCards() {
         activeCards = getFilteredCards();
+        index = 0;
+      }
+
+      function renderCard() {
         elements.totalCount.textContent = String(cardsForMode(true).length);
 
         if (activeCards.length === 0) {
@@ -178,26 +183,27 @@
 
       function shuffleCards() {
         const current = activeCards[index]?.id;
-        activeCards = getFilteredCards().sort(() => Math.random() - 0.5);
-        index = Math.max(0, activeCards.findIndex((card) => card.id !== current));
+        activeCards = shuffleDeck(activeCards, current);
+        index = 0;
         renderCard();
       }
 
       buildCategories();
       setTheme(savedTheme === "dark" ? "dark" : "light");
       updateModeNote();
+      refreshCards();
       renderCard();
 
       elements.themeToggle.addEventListener("click", () => {
         setTheme(elements.body.dataset.theme === "dark" ? "light" : "dark");
       });
       elements.experienceToggle.addEventListener("change", () => {
-        index = 0;
         updateModeNote();
+        refreshCards();
         renderCard();
       });
       elements.categoryFilter.addEventListener("change", () => {
-        index = 0;
+        refreshCards();
         renderCard();
       });
       elements.flashcard.addEventListener("click", () => elements.flashcard.classList.toggle("is-flipped"));
