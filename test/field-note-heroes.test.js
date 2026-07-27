@@ -43,7 +43,7 @@ function webpDimensions(buffer) {
   assert.fail("WebP dimensions were not found");
 }
 
-test("every field note publishes an optimized Grok hero below its date", () => {
+test("every field note publishes an optimized hero below its date", () => {
   assert.ok(notes.length > 0);
 
   for (const noteName of notes) {

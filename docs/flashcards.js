@@ -3,6 +3,7 @@ const NOTE_BASE = `${REPO_BASE}/field-notes`;
 
 export const categories = [
   "Agent Harness & Operating Environment",
+  "AI Hardware & Physical Interfaces",
   "Building Production Apps",
   "Context & Knowledge",
   "Creative Tools & Game Development",
@@ -410,7 +411,7 @@ export const flashcards = [
   },
   {
     id: "statuslines-official",
-    category: "Agent Harness & Operating Environment",
+    category: "AI Hardware & Physical Interfaces",
     mode: "official",
     fieldNoteTitle: "Custom Agent Statuslines Make The Terminal Feel Alive",
     fieldNotePath: "field-notes/2026-06-23-custom-agent-statuslines.md",
@@ -425,7 +426,7 @@ export const flashcards = [
   },
   {
     id: "statuslines-real",
-    category: "Agent Harness & Operating Environment",
+    category: "AI Hardware & Physical Interfaces",
     mode: "real_world",
     fieldNoteTitle: "Custom Agent Statuslines Make The Terminal Feel Alive",
     fieldNotePath: "field-notes/2026-06-23-custom-agent-statuslines.md",
@@ -438,7 +439,7 @@ export const flashcards = [
   },
   {
     id: "harness-official",
-    category: "Agent Harness & Operating Environment",
+    category: "AI Hardware & Physical Interfaces",
     mode: "official",
     fieldNoteTitle: "The Harness Is Not The Model",
     fieldNotePath: "field-notes/2026-06-20-agent-harnesses.md",
@@ -455,7 +456,7 @@ export const flashcards = [
   },
   {
     id: "harness-real",
-    category: "Agent Harness & Operating Environment",
+    category: "AI Hardware & Physical Interfaces",
     mode: "real_world",
     fieldNoteTitle: "The Harness Is Not The Model",
     fieldNotePath: "field-notes/2026-06-20-agent-harnesses.md",
@@ -911,6 +912,84 @@ export const flashcards = [
     answer:
       "The financial simulator, projections, practice accounting, migrations, and offline behavior remained deterministic TypeScript. Ask Morrow, daily prices, daily briefing, and build-time media were separate bounded lanes with minimal context, validation, caching, rate controls, circuit breakers, and safe fallbacks.",
     tags: ["morrowward", "deterministic core", "safe fallbacks", "ai boundaries"],
+    sources: [],
+  },
+  {
+    id: "codex-micro-controller-official",
+    category: "Agent Harness & Operating Environment",
+    mode: "official",
+    fieldNoteTitle: "When Codex Left The Screen: My First Days With Codex Micro",
+    fieldNotePath: "field-notes/2026-07-27-codex-micro-first-days.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-27-codex-micro-first-days.md`,
+    question: "What parts of agentic work does Codex Micro make physical?",
+    answer:
+      "Its Agent Keys expose live Codex status, command keys put frequent actions such as accept, reject, voice, and new-chat controls under a finger, the dial adjusts reasoning-related controls, and the joystick can trigger common skills. Work Louder Input also supports remapping, layers, lighting, and app-linked presets.",
+    tags: ["codex micro", "agent status", "physical controls", "work louder"],
+    sources: [
+      {
+        label: "OpenAI Supply Codex Micro",
+        url: "https://openai.com/supply/co-lab/work-louder/",
+      },
+      {
+        label: "Work Louder Codex Micro",
+        url: "https://worklouder.cc/codex-micro",
+      },
+      {
+        label: "Work Louder Creator Micro 2 setup",
+        url: "https://worklouder.cc/micro-setup",
+      },
+    ],
+  },
+  {
+    id: "gpt-live-codex-voice-official",
+    category: "Agent Harness & Operating Environment",
+    mode: "official",
+    fieldNoteTitle: "When Codex Left The Screen: My First Days With Codex Micro",
+    fieldNotePath: "field-notes/2026-07-27-codex-micro-first-days.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-27-codex-micro-first-days.md`,
+    question: "Why can Voice inside Codex feel different from ordinary dictation?",
+    answer:
+      "OpenAI describes GPT-Live as supporting natural pauses, interruptions, listening, and continuous back-and-forth interaction. Eligible desktop accounts can use Voice inside Codex with the tools and permissions available to that experience, so speech becomes an interactive turn-taking channel instead of only text transcription.",
+    tags: ["gpt-live", "voice", "codex", "turn-taking"],
+    sources: [
+      {
+        label: "OpenAI Introducing GPT-Live",
+        url: "https://openai.com/index/introducing-gpt-live/",
+      },
+      {
+        label: "OpenAI ChatGPT Voice",
+        url: "https://help.openai.com/en/articles/20001274",
+      },
+      {
+        label: "OpenAI ChatGPT Work and Codex",
+        url: "https://help.openai.com/en/articles/20001275",
+      },
+    ],
+  },
+  {
+    id: "codex-micro-ambient-awareness-real",
+    category: "Agent Harness & Operating Environment",
+    mode: "real_world",
+    fieldNoteTitle: "When Codex Left The Screen: My First Days With Codex Micro",
+    fieldNotePath: "field-notes/2026-07-27-codex-micro-first-days.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-27-codex-micro-first-days.md`,
+    question: "What problem did Codex Micro solve in my nighttime coding and gaming setup?",
+    answer:
+      "It turned parallel-agent state into ambient awareness. I could glance at the blue, green, amber, or idle lighting to know whether Codex was working, ready, or waiting for me without setting a timer, reopening the right window, or interrupting what I was doing.",
+    tags: ["codex micro", "ambient awareness", "parallel agents", "context switching"],
+    sources: [],
+  },
+  {
+    id: "codex-micro-pinned-muscle-memory-real",
+    category: "Agent Harness & Operating Environment",
+    mode: "real_world",
+    fieldNoteTitle: "When Codex Left The Screen: My First Days With Codex Micro",
+    fieldNotePath: "field-notes/2026-07-27-codex-micro-first-days.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-27-codex-micro-first-days.md`,
+    question: "Why did six unlabeled agent keys become intuitive instead of confusing?",
+    answer:
+      "They inherited the stable order of projects I had already pinned by importance. Because positions one through six already meant something to me, the physical mapping became muscle memory instead of forcing me to learn a second organization system.",
+    tags: ["pinned chats", "muscle memory", "organization", "physical interface"],
     sources: [],
   },
 ];

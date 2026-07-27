@@ -19,7 +19,7 @@ toggle to study only cards grounded in official documentation links.
 
 | Light theme | Dark theme |
 | --- | --- |
-| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-58-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-58-dark.png) |
+| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-62-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-62-dark.png) |
 
 ## Field Notes
 
@@ -35,6 +35,10 @@ Short journal-style notes from hands-on AI workflow experiments:
 - [When Unreal MCP Started Feeling Native](field-notes/2026-07-09-unreal-mcp-feels-native.md)
 - [config.toml Is The Harness Environment](field-notes/2026-06-20-config-toml-harness-environment.md)
 - [Locking Down Permissions With Codex Rules](field-notes/2026-06-20-locking-down-permissions-with-codex-rules.md)
+
+### AI Hardware & Physical Interfaces
+
+- [When Codex Left The Screen: My First Days With Codex Micro](field-notes/2026-07-27-codex-micro-first-days.md)
 
 ### Building Production Apps
 
