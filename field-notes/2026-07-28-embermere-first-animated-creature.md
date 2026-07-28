@@ -6,7 +6,7 @@ Date: 2026-07-28
 
 ## Summary
 
-The last time I wrote about Embermere, Codex and I had turned one Blender
+The [last time I wrote about Embermere](https://github.com/disbitski/real-world-ai-lab/blob/main/field-notes/2026-07-22-embermere-asset-acceptance-loop.md), Codex and I had turned one Blender
 waystone into a family of static roadside assets. The acceptance loop had
 survived four model types, five Unreal placements, authored collision, package
 persistence, route traversal, and a growing regression suite.
