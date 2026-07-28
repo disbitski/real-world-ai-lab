@@ -722,6 +722,37 @@ export const flashcards = [
     sources: [],
   },
   {
+    id: "embermere-skeletal-animation-fbx-official",
+    category: "Creative Tools & Game Development",
+    mode: "official",
+    fieldNoteTitle: "From Props to Predators: Building Embermere's First Animated Creature",
+    fieldNotePath: "field-notes/2026-07-28-embermere-first-animated-creature.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-28-embermere-first-animated-creature.md`,
+    question: "What is a reliable FBX packaging rule for importing separate character animations into Unreal Engine?",
+    answer:
+      "Epic's FBX animation pipeline supports one animation per skeletal mesh per file. An animation-only import should target an existing compatible skeleton, so each exported action can become a distinct AnimSequence without duplicating gameplay logic.",
+    tags: ["unreal engine", "skeletal animation", "fbx", "animsequence"],
+    sources: [
+      {
+        label: "Epic Games FBX Animation Pipeline",
+        url: "https://dev.epicgames.com/documentation/en-us/unreal-engine/fbx-animation-pipeline-in-unreal-engine",
+      },
+    ],
+  },
+  {
+    id: "embermere-first-animated-creature-real",
+    category: "Creative Tools & Game Development",
+    mode: "real_world",
+    fieldNoteTitle: "From Props to Predators: Building Embermere's First Animated Creature",
+    fieldNotePath: "field-notes/2026-07-28-embermere-first-animated-creature.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-07-28-embermere-first-animated-creature.md`,
+    question: "What made Embermere's first rigged Marsh Prowler accepted rather than merely animated?",
+    answer:
+      "Codex and I validated deterministic source, topology, rig, six actions, FBX imports, saved Unreal packages, Blueprint defaults, all three placed instances, runtime state routing, real terrain contact, the complete combat and respawn loop, and 27 passing tests. I still made the final visual and gameplay judgment in PIE.",
+    tags: ["embermere", "animation", "persistence", "playtesting"],
+    sources: [],
+  },
+  {
     id: "agents-md-official",
     category: "Reusable Agent Instructions",
     mode: "official",
