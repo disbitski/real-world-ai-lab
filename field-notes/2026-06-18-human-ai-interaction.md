@@ -4,6 +4,15 @@ Date: 2026-06-18
 
 ![Editorial photograph of two colleagues reviewing workflow cards and a small prototype together at a bright studio table, with four clearly visible hands.](assets/2026-06-18-human-ai-interaction/hero.webp)
 
+<!-- podcast-links:start -->
+## Listen To This Field Note
+
+This field note is also available as **Season 1, Episode 1** of *The Age We Build*.
+
+- [Listen on the Web](https://podcast.thedavedev.com/episodes/ai-collaboration-layer)
+- [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/ai-is-a-collaboration-layer-not-a-replacement-worker/id6796456206?i=1000779168603)
+<!-- podcast-links:end -->
+
 ## Summary
 
 Modern AI systems are most valuable when they accelerate workflows built around

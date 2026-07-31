@@ -4,6 +4,15 @@ Date: 2026-07-21
 
 ![A creator moves an idea up four dark stages toward three cross-device experiences surrounding the four-bar Morrowward logo at sunrise.](assets/2026-07-21-openai-build-week-four-days/hero.webp)
 
+<!-- podcast-links:start -->
+## Listen To This Field Note
+
+This field note is also available as **Season 1, Episode 3** of *The Age We Build*.
+
+- [Listen on the Web](https://podcast.thedavedev.com/episodes/openai-build-week-four-days)
+- [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/openai-build-week-from-a-qr-code-to-production-in-four-days/id6796456206?i=1000779171819)
+<!-- podcast-links:end -->
+
 ## Summary
 
 On July 14, I watched an OpenAI Codex video on LinkedIn about what was new for

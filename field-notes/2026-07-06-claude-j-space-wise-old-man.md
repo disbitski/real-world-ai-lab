@@ -4,6 +4,15 @@ Date: 2026-07-06
 
 ![Editorial observatory scene with one warm lantern enclosed in a glass workspace, surrounded by dark branching pathways, a weathered guide's staff, and a single mirror, representing Claude's J-space and reflective human meaning-making.](assets/2026-07-06-claude-j-space-wise-old-man/hero.webp)
 
+<!-- podcast-links:start -->
+## Listen To This Field Note
+
+This field note is also available as **Season 1, Episode 2** of *The Age We Build*.
+
+- [Listen on the Web](https://podcast.thedavedev.com/episodes/claude-j-space-wise-old-man)
+- [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/claudes-j-space-and-the-wise-old-man/id6796456206?i=1000779168604)
+<!-- podcast-links:end -->
+
 ## Summary
 
 Anthropic's research on Claude's "J-space" hit me in a place that was both

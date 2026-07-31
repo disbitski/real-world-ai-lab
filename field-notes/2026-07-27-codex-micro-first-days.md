@@ -4,6 +4,15 @@ Date: 2026-07-27
 
 ![A Codex Micro glows blue in voice mode on a recliner arm beside a blue-backlit lapboard keyboard in Dave's nighttime coding setup.](assets/2026-07-27-codex-micro-first-days/hero.webp)
 
+<!-- podcast-links:start -->
+## Listen To This Field Note
+
+This field note is also available as **Season 1, Episode 5** of *The Age We Build*.
+
+- [Listen on the Web](https://podcast.thedavedev.com/episodes/codex-left-the-screen)
+- [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/when-codex-left-the-screen-my-first-days-with-codex-micro/id6796456206?i=1000779177921)
+<!-- podcast-links:end -->
+
 ## Summary
 
 Codex Micro did not replace my keyboard, screen, or existing Codex habits.

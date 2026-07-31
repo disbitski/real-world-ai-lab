@@ -4,6 +4,15 @@ Date: 2026-07-12
 
 ![Editorial product photograph of a large graphite creative workstation with blue memory modules and a high-fantasy game display beside a smaller silver local-inference node with green memory modules, connected through a central routing switch.](assets/2026-07-12-my-practical-ai-stack/hero.webp)
 
+<!-- podcast-links:start -->
+## Listen To This Field Note
+
+This field note is also available as **Season 1, Episode 4** of *The Age We Build*.
+
+- [Listen on the Web](https://podcast.thedavedev.com/episodes/my-practical-ai-stack)
+- [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/my-practical-ai-stack-local-models-frontier-models/id6796456206?i=1000779173322)
+<!-- podcast-links:end -->
+
 ## Summary
 
 My practical AI stack is not local versus frontier.
