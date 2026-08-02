@@ -340,8 +340,8 @@ collaboration that gave the system something worth publishing.
 
 ## Sources
 
-- Google Gemini Notebook Help, [Generate Audio Overview in Gemini Notebook](https://support.google.com/gemininotebook/answer/16212820)
-- Google Gemini Notebook Help, [Upgrade Gemini Notebook](https://support.google.com/gemininotebook/answer/16213268)
+- Google Gemini Notebook Help, [Generate Audio Overview in Gemini Notebook](https://support.google.com/gemininotebook/answer/16212820?hl=en)
+- Google Gemini Notebook Help, [Upgrade Gemini Notebook](https://support.google.com/gemininotebook/answer/16213268?hl=en)
 - Google One, [Google AI plans](https://one.google.com/about/plans)
 - Google AI for Developers, [Gemini API pricing](https://ai.google.dev/gemini-api/docs/pricing)
 - Google AI for Developers, [Text-to-speech generation](https://ai.google.dev/gemini-api/docs/speech-generation)

@@ -1038,7 +1038,7 @@ export const flashcards = [
     sources: [
       {
         label: "Google Gemini Notebook Audio Overviews",
-        url: "https://support.google.com/gemininotebook/answer/16212820",
+      url: "https://support.google.com/gemininotebook/answer/16212820?hl=en",
       },
     ],
   },

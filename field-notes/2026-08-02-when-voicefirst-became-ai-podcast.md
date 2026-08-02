@@ -258,7 +258,7 @@ repeatable and reviewable.
 - Apple Podcasts, [Alexa Dev Chat](https://podcasts.apple.com/us/podcast/alexa-dev-chat/id1131682069)
 - Apple Podcasts, [The AWS Developers Podcast](https://podcasts.apple.com/us/podcast/the-aws-developers-podcast/id1574162669)
 - OpenAI, [Introducing GPT-Live](https://openai.com/index/introducing-gpt-live/)
-- Google Gemini Notebook Help, [Generate Audio Overview in Gemini Notebook](https://support.google.com/gemininotebook/answer/16212820)
+- Google Gemini Notebook Help, [Generate Audio Overview in Gemini Notebook](https://support.google.com/gemininotebook/answer/16212820?hl=en)
 - Anthropic, [AI Fluency: Delegation](https://www.anthropic.com/ai-fluency/ai-fluency-delegation)
 - Anthropic, [AI Fluency: Description-Discernment Loop](https://www.anthropic.com/ai-fluency/description-discernment-loop)
 - The Age We Build, [Podcast website](https://podcast.thedavedev.com/)
