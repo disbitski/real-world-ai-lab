@@ -1037,8 +1037,8 @@ export const flashcards = [
     tags: ["notebooklm", "audio overview", "ai hosts", "editorial review"],
     sources: [
       {
-        label: "Google Gemini Notebook Audio Overviews",
-      url: "https://support.google.com/gemininotebook/answer/16212820?hl=en",
+        label: "Google: NotebookLM Audio Overviews",
+        url: "https://blog.google/innovation-and-ai/products/notebooklm-audio-overviews/",
       },
     ],
   },
