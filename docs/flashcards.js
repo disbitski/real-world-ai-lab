@@ -4,6 +4,7 @@ const NOTE_BASE = `${REPO_BASE}/field-notes`;
 export const categories = [
   "Agent Harness & Operating Environment",
   "AI Hardware & Physical Interfaces",
+  "AI Media & Publishing",
   "Building Production Apps",
   "Context & Knowledge",
   "Creative Tools & Game Development",
@@ -1021,6 +1022,76 @@ export const flashcards = [
     answer:
       "They inherited the stable order of projects I had already pinned by importance. Because positions one through six already meant something to me, the physical mapping became muscle memory instead of forcing me to learn a second organization system.",
     tags: ["pinned chats", "muscle memory", "organization", "physical interface"],
+    sources: [],
+  },
+  {
+    id: "age-we-build-notebooklm-official",
+    category: "AI Media & Publishing",
+    mode: "official",
+    fieldNoteTitle: "The Age We Build: When VoiceFirst Became A Human-AI Podcast",
+    fieldNotePath: "field-notes/2026-08-02-when-voicefirst-became-ai-podcast.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-08-02-when-voicefirst-became-ai-podcast.md`,
+    question: "What does NotebookLM's Deep Dive format, now documented under Gemini Notebook, provide, and what must the editor still verify?",
+    answer:
+      "NotebookLM Deep Dive creates an in-depth conversation in which two AI hosts unpack and connect uploaded sources. Google also warns that Audio Overviews can contain inaccuracies or audio glitches, so source grounding does not remove the need for listening, fact review, and editorial approval.",
+    tags: ["notebooklm", "audio overview", "ai hosts", "editorial review"],
+    sources: [
+      {
+        label: "Google Gemini Notebook Audio Overviews",
+        url: "https://support.google.com/gemininotebook/answer/16212820",
+      },
+    ],
+  },
+  {
+    id: "age-we-build-voicefirst-real",
+    category: "AI Media & Publishing",
+    mode: "real_world",
+    fieldNoteTitle: "The Age We Build: When VoiceFirst Became A Human-AI Podcast",
+    fieldNotePath: "field-notes/2026-08-02-when-voicefirst-became-ai-podcast.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-08-02-when-voicefirst-became-ai-podcast.md`,
+    question: "What made The Age We Build feel like a human show instead of an automated summary feed?",
+    answer:
+      "I supplied the hope-centered mission, podcast and VoiceFirst history, host roles, brand taste, blind listening, rejections, and final determination. AI generated options and implemented the system, but I decided what the show meant and what deserved to be heard.",
+    tags: ["voicefirst", "podcast", "human judgment", "brand identity"],
+    sources: [],
+  },
+  {
+    id: "ai-podcast-delivery-official",
+    category: "AI Media & Publishing",
+    mode: "official",
+    fieldNoteTitle: "The Human Gate Behind An AI-Native Podcast Platform",
+    fieldNotePath: "field-notes/2026-08-02-human-gate-ai-podcast-platform.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-08-02-human-gate-ai-podcast-platform.md`,
+    question: "Which delivery details does a self-hosted podcast need beyond storing an MP3?",
+    answer:
+      "Apple requires a public RSS feed, unique episode enclosures, HTTP HEAD support, and byte-range playback. Cloudflare R2 and Workers can supply private object storage plus controlled GET, HEAD, and 206 Range responses, with meaningful free allowances at small launch volume.",
+    tags: ["podcast rss", "cloudflare r2", "http range", "apple podcasts"],
+    sources: [
+      {
+        label: "Apple Podcasts RSS feed requirements",
+        url: "https://podcasters.apple.com/support/823-podcast-requirements",
+      },
+      {
+        label: "Cloudflare R2 pricing",
+        url: "https://developers.cloudflare.com/r2/pricing/",
+      },
+      {
+        label: "Cloudflare Workers pricing",
+        url: "https://developers.cloudflare.com/workers/platform/pricing/",
+      },
+    ],
+  },
+  {
+    id: "ai-podcast-human-gate-real",
+    category: "AI Media & Publishing",
+    mode: "real_world",
+    fieldNoteTitle: "The Human Gate Behind An AI-Native Podcast Platform",
+    fieldNotePath: "field-notes/2026-08-02-human-gate-ai-podcast-platform.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-08-02-human-gate-ai-podcast-platform.md`,
+    question: "Why are factual QA warnings evidence rather than automatic regeneration commands in my podcast workflow?",
+    answer:
+      "A warning may identify a real error, a harmless inference, or conversational language that still fits the source. The system preserves the warning beside the audio and transcript; I listen to the complete master, judge its materiality, and explicitly approve, reject, or request one replacement.",
+    tags: ["human gate", "factual qa", "full listen", "editorial judgment"],
     sources: [],
   },
 ];

@@ -19,7 +19,7 @@ toggle to study only cards grounded in official documentation links.
 
 | Light theme | Dark theme |
 | --- | --- |
-| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-64-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-64-dark.png) |
+| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-68-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-68-dark.png) |
 
 ## Field Notes
 
@@ -39,6 +39,11 @@ Short journal-style notes from hands-on AI workflow experiments:
 ### AI Hardware & Physical Interfaces
 
 - [When Codex Left The Screen: My First Days With Codex Micro](field-notes/2026-07-27-codex-micro-first-days.md)
+
+### AI Media & Publishing
+
+- [The Age We Build: When VoiceFirst Became A Human-AI Podcast](field-notes/2026-08-02-when-voicefirst-became-ai-podcast.md)
+- [The Human Gate Behind An AI-Native Podcast Platform](field-notes/2026-08-02-human-gate-ai-podcast-platform.md)
 
 ### Building Production Apps
 
