@@ -4,6 +4,15 @@ Date: 2026-07-14
 
 ![Editorial game-development scene with one developer using modeling and high-fantasy game viewports that show the same moss-covered ember waystone, linked by an icon-only AI workflow, with an Amiga computer nearby.](assets/2026-07-14-amiga-blender-mcp-embermere/hero.webp)
 
+<!-- podcast-links:start -->
+## Listen To This Field Note
+
+This field note is also available as **Season 1, Episode 6** of *The Age We Build*.
+
+- [Listen on the Web](https://podcast.thedavedev.com/episodes/amiga-blender-mcp-embermere)
+- [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-my-amiga-500-to-blender-mcp-building-embermeres/id6796456206?i=1000779701167)
+<!-- podcast-links:end -->
+
 ## Summary
 
 In 1987, I saved money from my paper route and my job at McDonald's to buy an
