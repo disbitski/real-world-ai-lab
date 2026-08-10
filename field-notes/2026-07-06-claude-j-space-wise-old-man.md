@@ -11,6 +11,7 @@ This field note is also available as **Season 1, Episode 2** of *The Age We Buil
 
 - [Listen on the Web](https://podcast.thedavedev.com/episodes/claude-j-space-wise-old-man)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/claudes-j-space-and-the-wise-old-man/id6796456206?i=1000779168604)
+- [Watch on YouTube](https://www.youtube.com/watch?v=eAwN8SUrhQs)
 <!-- podcast-links:end -->
 
 ## Summary

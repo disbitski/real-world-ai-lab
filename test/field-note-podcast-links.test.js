@@ -29,5 +29,10 @@ test("published podcast link blocks use direct verified destinations", () => {
     if (block.includes("Spotify")) {
       assert.match(block, /https:\/\/open\.spotify\.com\/episode\/[A-Za-z0-9]+/);
     }
+    assert.match(
+      block,
+      /\[Watch on YouTube\]\(https:\/\/www\.youtube\.com\/watch\?v=[A-Za-z0-9_-]{11}\)/,
+    );
+    assert.doesNotMatch(block, /youtube\.com\/playlist/);
   }
 });

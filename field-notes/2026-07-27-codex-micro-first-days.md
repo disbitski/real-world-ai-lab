@@ -11,6 +11,7 @@ This field note is also available as **Season 1, Episode 5** of *The Age We Buil
 
 - [Listen on the Web](https://podcast.thedavedev.com/episodes/codex-left-the-screen)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/when-codex-left-the-screen-my-first-days-with-codex-micro/id6796456206?i=1000779177921)
+- [Watch on YouTube](https://www.youtube.com/watch?v=5rLbGnWVsc0)
 <!-- podcast-links:end -->
 
 ## Summary

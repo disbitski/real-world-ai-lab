@@ -11,6 +11,7 @@ This field note is also available as **Season 1, Episode 6** of *The Age We Buil
 
 - [Listen on the Web](https://podcast.thedavedev.com/episodes/amiga-blender-mcp-embermere)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-my-amiga-500-to-blender-mcp-building-embermeres/id6796456206?i=1000779701167)
+- [Watch on YouTube](https://www.youtube.com/watch?v=OCW04yS3LkA)
 <!-- podcast-links:end -->
 
 ## Summary

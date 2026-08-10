@@ -11,6 +11,7 @@ This field note is also available as **Season 1, Episode 4** of *The Age We Buil
 
 - [Listen on the Web](https://podcast.thedavedev.com/episodes/my-practical-ai-stack)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/my-practical-ai-stack-local-models-frontier-models/id6796456206?i=1000779173322)
+- [Watch on YouTube](https://www.youtube.com/watch?v=5-935NlBofE)
 <!-- podcast-links:end -->
 
 ## Summary

@@ -11,6 +11,7 @@ This field note is also available as **Season 1, Episode 3** of *The Age We Buil
 
 - [Listen on the Web](https://podcast.thedavedev.com/episodes/openai-build-week-four-days)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/openai-build-week-from-a-qr-code-to-production-in-four-days/id6796456206?i=1000779171819)
+- [Watch on YouTube](https://www.youtube.com/watch?v=Lh8SkaSpHVU)
 <!-- podcast-links:end -->
 
 ## Summary
