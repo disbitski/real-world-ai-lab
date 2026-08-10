@@ -17,16 +17,13 @@ I already had an xAI developer account, API credits, and good experiences using
 Grok Imagine from shell scripts. So instead of asking one AI system to keep doing
 every part of the job, we built a small team.
 
-In this session, ChatGPT Codex, with the `GPT-5.6 SOL` model label visible in my
-environment, handled research, planning, API integration, prompt development,
-candidate review, repository updates, testing, and delivery. Grok Imagine Image
+In this session, ChatGPT Codex running GPT-5.6 Sol Ultra with Fast mode handled
+research, planning, API integration, prompt development, candidate review,
+repository updates, testing, and delivery. That is the configuration I use for
+nearly all of my daily Codex work unless I say otherwise. Grok Imagine Image
 Quality specialized in generating the visual candidates. I set the direction,
 judged the comparisons, changed the rules when needed, and approved what moved
 forward.
-
-That distinction matters. `GPT-5.6 SOL` describes the model label I observed in
-this session; I am not using it to make a claim about public model availability
-or undocumented specifications.
 
 The result was not one model replacing another. It was a human-directed,
 multi-model workflow in which each system did the part it was best positioned
@@ -280,6 +277,7 @@ human understanding and control.
 - xAI: [Image generation controls and examples](https://docs.x.ai/developers/model-capabilities/images/generation)
 - xAI: [Imagine API pricing](https://docs.x.ai/developers/pricing)
 - xAI: [Video generation](https://docs.x.ai/developers/model-capabilities/video/generation)
+- OpenAI: [Introducing GPT-5.6](https://openai.com/index/gpt-5-6/)
 - OpenAI: [Introducing the Codex app](https://openai.com/index/introducing-the-codex-app/)
 - OpenAI: [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)
 
