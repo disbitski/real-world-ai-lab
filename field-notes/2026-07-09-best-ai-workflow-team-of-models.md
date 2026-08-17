@@ -4,6 +4,16 @@ Date: 2026-07-09
 
 ![Editorial photograph of a developer directing two specialized AI modules at a walnut desk, with a graphite reasoning module and an ivory image module connected by blue and amber paths to one central brass routing hub.](assets/2026-07-09-best-ai-workflow-team-of-models/hero.webp)
 
+<!-- podcast-links:start -->
+## Listen To This Field Note
+
+This field note is also available as **Season 1, Episode 7** of *The Age We Build*.
+
+- [Listen on the Web](https://podcast.thedavedev.com/episodes/best-ai-workflow-team-of-models)
+- [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/the-best-ai-workflow-may-be-a-team-of-models/id6796456206?i=1000783875772)
+- [Watch on YouTube](https://www.youtube.com/watch?v=1rxTcZSBOmA)
+<!-- podcast-links:end -->
+
 ## Summary
 
 This field note started because I was not happy with our images.
