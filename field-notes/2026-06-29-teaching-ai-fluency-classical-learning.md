@@ -4,6 +4,16 @@ Date: 2026-06-29
 
 ![Editorial photograph of an open geometric study book surrounded by stone, glass, and metal solids, a brass compass, a fountain pen, and a cyan-lit crystal prism.](assets/2026-06-29-teaching-ai-fluency-classical-learning/hero.webp)
 
+<!-- podcast-links:start -->
+## Listen To This Field Note
+
+This field note is also available as **Season 1, Episode 8** of *The Age We Build*.
+
+- [Listen on the Web](https://podcast.thedavedev.com/episodes/teaching-ai-fluency-classical-learning)
+- [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/teaching-ai-fluency-feels-like-classical-learning-for/id6796456206?i=1000787266662)
+- [Watch on YouTube](https://www.youtube.com/watch?v=rBTYlZqG498)
+<!-- podcast-links:end -->
+
 ## Summary
 
 Anthropic's Teaching AI Fluency course landed for me because it was not really
