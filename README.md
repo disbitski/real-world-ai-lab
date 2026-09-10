@@ -19,7 +19,7 @@ toggle to study only cards grounded in official documentation links.
 
 | Light theme | Dark theme |
 | --- | --- |
-| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-68-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-68-dark.png) |
+| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-71-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-71-dark.png) |
 
 ## Field Notes
 
@@ -29,6 +29,7 @@ Short journal-style notes from hands-on AI workflow experiments:
 
 - [Custom Agent Statuslines Make The Terminal Feel Alive](field-notes/2026-06-23-custom-agent-statuslines.md)
 - [The Harness Is Not The Model](field-notes/2026-06-20-agent-harnesses.md)
+- [A New Model Is Not Automatically A Better Workflow](field-notes/2026-09-04-astra-in-the-embermere-build-loop.md)
 - [Subagents Keep The Main Thread Clean](field-notes/2026-06-25-subagents-keep-the-main-thread-clean.md)
 - [Claude Code Hooks Are Local Safety Rails](field-notes/2026-06-25-claude-code-hooks-are-local-safety-rails.md)
 - [MCP Is The Tool Layer](field-notes/2026-06-23-mcp-is-the-tool-layer.md)

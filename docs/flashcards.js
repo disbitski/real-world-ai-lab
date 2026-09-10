@@ -17,6 +17,54 @@ export const categories = [
 
 export const flashcards = [
   {
+    id: "astra-workflow-upgrade-real",
+    category: "Agent Harness & Operating Environment",
+    mode: "real_world",
+    fieldNoteTitle: "A New Model Is Not Automatically A Better Workflow",
+    fieldNotePath: "field-notes/2026-09-04-astra-in-the-embermere-build-loop.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-09-04-astra-in-the-embermere-build-loop.md`,
+    question: "Why did my Astra experiment not automatically justify replacing an established Embermere workflow?",
+    answer:
+      "Astra produced useful work, but inherited the project's notes, architecture, MCP tools, and acceptance checks. The session was not a controlled comparison and introduced a tool-choice problem. I want measured improvement in accepted work and boundary compliance before changing my default model.",
+    tags: ["model evaluation", "harness", "workflow compatibility"],
+    sources: [],
+  },
+  {
+    id: "astra-interaction-boundaries-real",
+    category: "Agent Harness & Operating Environment",
+    mode: "real_world",
+    fieldNoteTitle: "A New Model Is Not Automatically A Better Workflow",
+    fieldNotePath: "field-notes/2026-09-04-astra-in-the-embermere-build-loop.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-09-04-astra-in-the-embermere-build-loop.md`,
+    question: "Why was switching from a designated MCP or browser session to desktop control a security concern in my workflows?",
+    answer:
+      "The route defines which applications, accounts, and information the agent can reach. Working Unreal MCP tools and a designated authenticated browser session were not interchangeable with broader desktop control. These were observed routing problems, not evidence of credential theft or a universal Astra default.",
+    tags: ["tool routing", "security boundaries", "MCP"],
+    sources: [],
+  },
+  {
+    id: "computer-use-enforcement-official",
+    category: "Agent Harness & Operating Environment",
+    mode: "official",
+    fieldNoteTitle: "A New Model Is Not Automatically A Better Workflow",
+    fieldNotePath: "field-notes/2026-09-04-astra-in-the-embermere-build-loop.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-09-04-astra-in-the-embermere-build-loop.md`,
+    question: "What does OpenAI's computer-use guidance require beyond instructions telling an agent which tools to prefer?",
+    answer:
+      "Restrict the execution environment, limit permitted sites and actions, keep consequential actions under user control, and verify actual outcomes. Existing function or MCP interfaces can be retained, with execution controls enforced in the implementation. This API guidance does not establish a universal Codex tool-selection default.",
+    tags: ["computer use", "least privilege", "execution controls"],
+    sources: [
+      {
+        label: "OpenAI: Computer use safety",
+        url: "https://developers.openai.com/api/docs/guides/tools-computer-use#run-safely",
+      },
+      {
+        label: "OpenAI: Use your own UI tools",
+        url: "https://developers.openai.com/api/docs/guides/tools-computer-use-integration#use-your-own-ui-tools",
+      },
+    ],
+  },
+  {
     id: "collaboration-layer-real",
     category: "Mindset & Collaboration",
     mode: "real_world",
