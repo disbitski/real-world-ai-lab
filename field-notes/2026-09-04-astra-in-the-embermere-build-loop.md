@@ -1,14 +1,8 @@
 # Field Note: A New Model Is Not Automatically A Better Workflow
 
-Date: 2026-09-04
+Date: 2026-09-10
 
 ![A stone-and-timber miniature gateway with a glowing lantern sits inside a clear protective fixture, with a silver module seated in its base and a blue replacement module resting in a foam tray beside it.](assets/2026-09-04-astra-in-the-embermere-build-loop/hero.webp)
-
-Updated: 2026-09-10
-
-Build results and remaining acceptance limits below describe the September 4
-experiment, not the current state of the game. The hero is an editorial
-illustration; the journal render and Unreal capture are actual project artifacts.
 
 ## Summary
 
@@ -117,7 +111,7 @@ makes a tool inherently safe. MCP can expose very powerful operations, and a
 dedicated browser still needs proper isolation and access restrictions. The
 question is whether the actual tool scope matches the task I authorized.
 
-By September 5, my Embermere project instructions explicitly revoked desktop
+After that run, my Embermere project instructions explicitly revoked desktop
 control. Unreal and Blender MCP remained the allowed editor paths. If a check
 needed physical input the integration could not provide, it was to stay
 unverified until I performed it. Working MCP tasks were not supposed to wait
@@ -155,7 +149,7 @@ specific session's tool choices.
 
 ## What The Build Evidence Actually Supports
 
-The final September 4 run passed all 91 tests, 21 fresh-process saved-package
+The final run passed all 91 tests, 21 fresh-process saved-package
 validators, and six initialized-world collision and route checks. The test
 suite had grown from 88 with three focused quest-update tests.
 
@@ -168,7 +162,7 @@ meaningful.
 
 ![Actual Unreal PIE capture showing quest completion at the upper right, with reward and level-up feedback at the top center.](assets/2026-09-04-astra-in-the-embermere-build-loop/embermere-quest-completion.png)
 
-*A historical capture from the September 4 run: fixture-injected objective
+*A capture from that run: fixture-injected objective
 progress followed by a real Mara turn-in. This is a layout and reward check,
 not proof of three real Prowler kills. The older dialogue box still overlaps
 the bottom hotbar.*
