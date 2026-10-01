@@ -4,6 +4,16 @@ Date: 2026-10-01
 
 ![Warcraft III running on my original PC with a white CRT monitor, keyboard, headphones, and game discs beside the computer tower.](assets/2026-10-01-warcraft-jev-nimble/hero.webp)
 
+<!-- podcast-links:start -->
+## Listen To This Field Note
+
+This field note is also available as **Season 1, Episode 10** of *The Age We Build*.
+
+- [Listen on the Web](https://podcast.thedavedev.com/episodes/warcraft-jev-nimble)
+- [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-warcraft-iii-to-jev-and-nimble-exploring-ai-that/id6796456206?i=1000792648547)
+- [Watch on YouTube](https://www.youtube.com/watch?v=W2pUVZItIfc)
+<!-- podcast-links:end -->
+
 *My original Warcraft III setup. This is personal history, not a capture of our
 AI experiment.*
 
