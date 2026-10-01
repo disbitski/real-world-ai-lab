@@ -25,7 +25,7 @@ export const flashcards = [
     fieldNoteUrl: `${NOTE_BASE}/2026-10-01-warcraft-jev-nimble.md`,
     question: "What did our tactical sandbox teach me about choosing a decision model instead of ordinary rules?",
     answer:
-      "Guided local Nimble met all five withdrawal objectives but none of the combat objectives. Transparent tactical rules met all 15 objectives and saved every unit. A valid model response is not enough: I need mission outcomes, survivors, latency, and warnings before claiming the model adds value. We changed briefing, encoding, and integration together, not the model's weights.",
+      "Guided Nimble met 5/15 objectives; tactical rules met 15/15 and saved every unit. I evaluate outcomes, survivors, latency, and warnings, not JSON.",
     tags: ["decision models", "mission objectives", "evaluation"],
     sources: [],
   },
@@ -38,15 +38,15 @@ export const flashcards = [
     fieldNoteUrl: `${NOTE_BASE}/2026-10-01-warcraft-jev-nimble.md`,
     question: "Does Nimble's TypeSafe-compatible interface make it local Jev, and does its confidence measure correctness?",
     answer:
-      "No. Ollama documents Nimble as Bespoke Labs' independently developed 9B decision model with a TypeSafe-compatible decision interface. Its confidence describes concentration in the returned probability distribution, not the probability that its answer is correct. Interface compatibility is not model identity or proof of tactical understanding.",
+      "Nimble is Bespoke Labs' model, not local Jev. Confidence measures probability concentration, not correctness.",
     tags: ["Nimble", "model identity", "confidence"],
     sources: [
       {
-        label: "Ollama: Nimble model and decision API",
+        label: "Ollama: Nimble",
         url: "https://ollama.com/library/nimble",
       },
       {
-        label: "Bespoke Labs: Nimble repository",
+        label: "Bespoke Labs: Nimble",
         url: "https://github.com/bespokelabsai/nimble",
       },
     ],
