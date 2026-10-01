@@ -131,6 +131,34 @@ inference. Existing spending guards and the request ceiling remained in place.
 My old PC and G4 photographs are personal context for why I wanted to try this.
 Neither Jev nor Nimble ran on those retro machines.
 
+## Try The Recorded Battles
+
+I published the [Squad Lab source](https://github.com/disbitski/jev-squad-lab)
+and an [interactive replay viewer on GitHub Pages](https://disbitski.github.io/jev-squad-lab/)
+so readers can inspect the experiment rather than take my summary on faith.
+The viewer includes all 45 scored battles, a
+[downloadable results table](https://github.com/disbitski/jev-squad-lab/blob/main/replay/data/results.csv),
+and three separately labeled historical examples. Original recordings remain
+private; the public derivatives preserve the battlefield and decision evidence,
+with checksums, while omitting account data and routing metadata.
+
+A useful place to start is
+[guided Nimble's withdrawal, seed 71](https://disbitski.github.io/jev-squad-lab/?replay=832e3d55-2c52-492a-a473-c8a58051e5c0).
+For a combat comparison, watch
+[tactical rules at the crossing on the same seed](https://disbitski.github.io/jev-squad-lab/?replay=4ad7c124-430c-4723-b338-daf59e4c45da)
+alongside [Nimble's failed crossing run](https://disbitski.github.io/jev-squad-lab/?replay=fdcc7c4d-3c49-40fc-912e-197d3eafd661).
+The Results tab links every scored row to its own recording.
+
+![The deployed GitHub Pages replay viewer showing a recorded Nimble withdrawal, squad health, and returned decision probabilities.](assets/2026-10-01-warcraft-jev-nimble/public-replay-desktop.png)
+
+*The public viewer displays saved evidence. Playback does not run the simulator
+again or call a model.*
+
+![The deployed replay viewer on mobile, with a recorded battlefield, playback controls, unit health, usage counters, and decision evidence.](assets/2026-10-01-warcraft-jev-nimble/public-replay-mobile.png)
+
+*The same recording and evidence are accessible on mobile. Live experiments
+remain in the local source application.*
+
 ## What Changed When We Made The Tactics Explicit
 
 The first frozen local comparison was not encouraging. Nimble completed none
@@ -297,7 +325,7 @@ and [The Best AI Workflow May Be A Team Of Models](https://github.com/disbitski/
 The useful unit is not just a model name. It is the model, its observations,
 the controller around it, the task, and the evidence I can inspect afterward.
 
-Any public version of our demo will be replay-only: choose a recording, play,
+The public demo is replay-only: choose a recording, play,
 pause, and scrub. No live inference, API-key entry, or backend that spends my
 credits. The local source application is where live experiments belong.
 
@@ -322,10 +350,11 @@ credits. The local source application is where live experiments belong.
 - Ollama, [Nimble model and decision API documentation](https://ollama.com/library/nimble).
 - Bespoke Labs, [Nimble source and evaluation repository](https://github.com/bespokelabsai/nimble).
 - Independent inspiration, [wc3env](https://github.com/pwang724/wc3env).
-- Experiment evidence: checksummed battle recordings, frozen controller hashes,
-  returned request/response records, and the scored results table retained in
-  our local Squad Lab. Availability trials, calibration, and scored evaluation
-  are separate records.
+- Experiment evidence: [source, reviewed recordings, and frozen controller hashes](https://github.com/disbitski/jev-squad-lab),
+  [scored results](https://github.com/disbitski/jev-squad-lab/blob/main/replay/data/results.csv),
+  and [interactive replay viewer](https://disbitski.github.io/jev-squad-lab/).
+  Private originals retain the source checksums. Availability trials,
+  calibration, and scored evaluation remain separate records.
 
 ## Working Principle
 

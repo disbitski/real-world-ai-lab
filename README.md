@@ -62,7 +62,7 @@ Short journal-style notes from hands-on AI workflow experiments:
 
 ### Creative Tools & Game Development
 
-- [From Warcraft III To Jev And Nimble: Exploring AI That Chooses Instead Of Chats](field-notes/2026-10-01-warcraft-jev-nimble.md)
+- [From Warcraft III To Jev And Nimble: Exploring AI That Chooses Instead Of Chats](field-notes/2026-10-01-warcraft-jev-nimble.md) | [Battle replays](https://disbitski.github.io/jev-squad-lab/) | [Source and results](https://github.com/disbitski/jev-squad-lab)
 - [From My Amiga 500 To Blender MCP: Building Embermere's First Original Asset](field-notes/2026-07-14-amiga-blender-mcp-embermere.md)
 - [From One Waystone to a World: The Acceptance Loop Behind Embermere](field-notes/2026-07-22-embermere-asset-acceptance-loop.md)
 - [From Props to Predators: Building Embermere's First Animated Creature](field-notes/2026-07-28-embermere-first-animated-creature.md)
