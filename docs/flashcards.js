@@ -17,6 +17,41 @@ export const categories = [
 
 export const flashcards = [
   {
+    id: "warcraft-decision-model-outcomes-real",
+    category: "Creative Tools & Game Development",
+    mode: "real_world",
+    fieldNoteTitle: "From Warcraft III To Jev And Nimble: Exploring AI That Chooses Instead Of Chats",
+    fieldNotePath: "field-notes/2026-10-01-warcraft-jev-nimble.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-10-01-warcraft-jev-nimble.md`,
+    question: "What did our tactical sandbox teach me about choosing a decision model instead of ordinary rules?",
+    answer:
+      "Guided local Nimble met all five withdrawal objectives but none of the combat objectives. Transparent tactical rules met all 15 objectives and saved every unit. A valid model response is not enough: I need mission outcomes, survivors, latency, and warnings before claiming the model adds value. We changed briefing, encoding, and integration together, not the model's weights.",
+    tags: ["decision models", "mission objectives", "evaluation"],
+    sources: [],
+  },
+  {
+    id: "nimble-identity-confidence-official",
+    category: "Creative Tools & Game Development",
+    mode: "official",
+    fieldNoteTitle: "From Warcraft III To Jev And Nimble: Exploring AI That Chooses Instead Of Chats",
+    fieldNotePath: "field-notes/2026-10-01-warcraft-jev-nimble.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-10-01-warcraft-jev-nimble.md`,
+    question: "Does Nimble's TypeSafe-compatible interface make it local Jev, and does its confidence measure correctness?",
+    answer:
+      "No. Ollama documents Nimble as Bespoke Labs' independently developed 9B decision model with a TypeSafe-compatible decision interface. Its confidence describes concentration in the returned probability distribution, not the probability that its answer is correct. Interface compatibility is not model identity or proof of tactical understanding.",
+    tags: ["Nimble", "model identity", "confidence"],
+    sources: [
+      {
+        label: "Ollama: Nimble model and decision API",
+        url: "https://ollama.com/library/nimble",
+      },
+      {
+        label: "Bespoke Labs: Nimble repository",
+        url: "https://github.com/bespokelabsai/nimble",
+      },
+    ],
+  },
+  {
     id: "astra-workflow-upgrade-real",
     category: "Agent Harness & Operating Environment",
     mode: "real_world",
