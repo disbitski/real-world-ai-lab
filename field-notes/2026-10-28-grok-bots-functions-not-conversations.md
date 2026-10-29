@@ -75,11 +75,28 @@ The names make the team enjoyable to use. The responsibilities make it useful.
 | Sophia - daily inspiration | Poetry and historical musings around Greek and Egyptian myths, Roman history, hermeticism, and other interests. | Delivers something reflective before my workouts; generated poetry is not a historical quotation. |
 | Chad - fitness motivation | Encouragement and motivation for my fitness routine. | A separate purpose from research, markets, or creative production. |
 
-Master of Coin looks for possible opportunities and what I call kill zones:
-areas or conditions to be wary of. Those are research leads, not evidence of
-profitable execution. I have not benchmarked the accuracy of this bot team or
-measured an investment return attributable to it. Current-data access also does
-not make every observation fresh, complete, or trading-grade.
+Master of Coin looks for possible opportunities and setups I call kill zones:
+repeatedly tested support or resistance where I watch how buyers and sellers
+respond. I do not mean a generic danger area. The underlying
+[support-and-resistance idea](https://www.fidelity.com/learning-center/trading-investing/technical-analysis/support-and-resistance)
+concerns supply and demand; this is how I use the term in my own research.
+
+For an illustrative example, imagine a stock rebounding near $142 five or six
+times. I would look for selling to ease and a bounce to start on a two- or
+five-minute chart, not treat touching that price as an automatic buy signal.
+I would also define where a break below the support invalidates the setup.
+A repeatedly tested resistance ceiling and a possible breakout are another
+setup to investigate. The principle is to find the level buyers keep
+defending, wait for confirmation, and know where the idea is wrong.
+
+That is a research framework, not a tested win rate or guaranteed trade.
+Repeated bounces alone do not identify the buyers as institutions, and an exit
+plan does not guarantee a small loss: gaps and slippage can intervene. As
+[CME's explanation](https://www.cmegroup.com/education/courses/technical-analysis/support-and-resistance)
+emphasizes, these are zones rather than exact prices that must hold. I have
+not benchmarked this bot team's accuracy or measured an investment return
+attributable to it. Current-data access also does not make every observation
+fresh, complete, or trading-grade.
 
 The trading boundary is deliberate. My execution-capable investing workflow
 still sits outside Grok Bot and is handled by Codex. I have put substantial work
@@ -241,6 +258,8 @@ it, not a controlled comparison of Grok, Claude, and Codex.
 
 ## Sources
 
+- Fidelity, [Support and resistance](https://www.fidelity.com/learning-center/trading-investing/technical-analysis/support-and-resistance)
+- CME Group, [Support and resistance](https://www.cmegroup.com/education/courses/technical-analysis/support-and-resistance)
 - SpaceX Super Intelligence, [Grok Bot product overview](https://x.ai/bot)
 - SpaceX Super Intelligence, [Grok Bot documentation](https://docs.x.ai/grok-bot/overview)
 - SpaceX Super Intelligence, [Messaging and collaboration](https://docs.x.ai/grok-bot/chat-and-collaboration)
