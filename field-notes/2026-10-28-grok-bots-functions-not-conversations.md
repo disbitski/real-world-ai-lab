@@ -72,7 +72,7 @@ The names make the team enjoyable to use. The responsibilities make it useful.
 | Spymaster Bob | Market research and trends on X across topics including AI, robotics, and space. | Owns a research function rather than trying to turn every finding into a financial conclusion. |
 | Gary - Financial Markets | Daily financial-market briefings drawing on the relevant bots' findings. | Owns the financial digest and can ask DaVinci for visuals when needed. |
 | DaVinci | Creative production through my Grok Imagine API account, including images and video. | Any bot needing creative work can ask DaVinci; Gary is not a required router. |
-| Daily inspiration | Poetry and historical musings around Greek and Egyptian myths, Roman history, hermeticism, and other interests. | Delivers something reflective before my workouts; generated poetry is not a historical quotation. |
+| Sophia - daily inspiration | Poetry and historical musings around Greek and Egyptian myths, Roman history, hermeticism, and other interests. | Delivers something reflective before my workouts; generated poetry is not a historical quotation. |
 | Chad - fitness motivation | Encouragement and motivation for my fitness routine. | A separate purpose from research, markets, or creative production. |
 
 Master of Coin looks for possible opportunities and what I call kill zones:
