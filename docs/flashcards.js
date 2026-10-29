@@ -17,6 +17,63 @@ export const categories = [
 
 export const flashcards = [
   {
+    id: "grok-bots-functions-real",
+    category: "Multi-Agent & Model Collaboration",
+    mode: "real_world",
+    fieldNoteTitle: "Grok Bots Made Me Think In Functions, Not Just Conversations",
+    fieldNotePath: "field-notes/2026-10-28-grok-bots-functions-not-conversations.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-10-28-grok-bots-functions-not-conversations.md`,
+    question: "What does thinking in functions change about my Grok Bot roster?",
+    answer:
+      "I assign continuing responsibilities, outputs, handoffs, and authority boundaries. Gary owns financial briefings; DaVinci owns creative generation. Market research in Grok Bot is read-only, while my execution-capable investing workflow stays separately in Codex. Gandalf's weekly drift review supports my oversight; it is not a guarantee.",
+    tags: ["specialist bots", "handoffs", "human judgment"],
+    sources: [],
+  },
+  {
+    id: "grok-bots-shared-computer-official",
+    category: "Multi-Agent & Model Collaboration",
+    mode: "official",
+    fieldNoteTitle: "Grok Bots Made Me Think In Functions, Not Just Conversations",
+    fieldNotePath: "field-notes/2026-10-28-grok-bots-functions-not-conversations.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-10-28-grok-bots-functions-not-conversations.md`,
+    question: "Do separate Grok Bot identities create separate security compartments?",
+    answer:
+      "No. A user's bots share a cloud computer, including files and browser sessions. Role instructions do not establish isolated access. Consequential actions still need appropriate permissions and approval boundaries.",
+    tags: ["Grok Bot", "shared computer", "permissions"],
+    sources: [
+      {
+        label: "SpaceX Super Intelligence: Grok Bot security",
+        url: "https://docs.x.ai/grok-bot/approvals-security-and-privacy",
+      },
+    ],
+  },
+  {
+    id: "grok-bots-persistent-handoffs-official",
+    category: "Multi-Agent & Model Collaboration",
+    mode: "official",
+    fieldNoteTitle: "Grok Bots Made Me Think In Functions, Not Just Conversations",
+    fieldNotePath: "field-notes/2026-10-28-grok-bots-functions-not-conversations.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-10-28-grok-bots-functions-not-conversations.md`,
+    question: "What supports ongoing specialization and handoffs in Grok Bot?",
+    answer:
+      "Named bots retain role context and can send asynchronous messages to other bots. Routines define an owning bot, timing or trigger, inputs, expected output, and approval boundary. These features do not prove a particular workflow is reliable.",
+    tags: ["Grok Bot", "routines", "coordination"],
+    sources: [
+      {
+        label: "SpaceX Super Intelligence: Bot overview",
+        url: "https://docs.x.ai/grok-bot/overview",
+      },
+      {
+        label: "SpaceX Super Intelligence: Collaboration",
+        url: "https://docs.x.ai/grok-bot/chat-and-collaboration",
+      },
+      {
+        label: "SpaceX Super Intelligence: Skills and routines",
+        url: "https://docs.x.ai/grok-bot/skills-routines-and-automations",
+      },
+    ],
+  },
+  {
     id: "warcraft-decision-model-outcomes-real",
     category: "Creative Tools & Game Development",
     mode: "real_world",

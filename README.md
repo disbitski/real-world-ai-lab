@@ -19,7 +19,7 @@ toggle to study only cards grounded in official documentation links.
 
 | Light theme | Dark theme |
 | --- | --- |
-| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-73-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-73-dark.png) |
+| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-76-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-76-dark.png) |
 
 ## Field Notes
 
@@ -82,6 +82,7 @@ Short journal-style notes from hands-on AI workflow experiments:
 
 ### Multi-Agent & Model Collaboration
 
+- [Grok Bots Made Me Think In Functions, Not Just Conversations](field-notes/2026-10-28-grok-bots-functions-not-conversations.md)
 - [The Best AI Workflow May Be A Team Of Models](field-notes/2026-07-09-best-ai-workflow-team-of-models.md)
 
 ### Reusable Agent Instructions
