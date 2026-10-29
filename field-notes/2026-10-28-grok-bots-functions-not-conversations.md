@@ -54,9 +54,9 @@ That fits the distinction I feel: **Grok is where I often go to think something
 through. My Grok Bots are where I assign continuing responsibility.** Those
 uses overlap, but the starting point changes how I organize the work.
 
-![My Grok Bot conversation list showing Gandalf, Master of Coin, Captain of the Guard, Spymaster Bob, Gary - Financial Markets, and DaVinci, with their avatars and recent message previews.](assets/2026-10-28-grok-bots-functions-not-conversations/bot-roster.webp)
+![My Grok Bot conversation list showing Chad, DaVinci, Master of Coin, Captain of the Guard, Spymaster Bob, and Gary - Financial Markets, with their avatars and recent message previews.](assets/2026-10-28-grok-bots-functions-not-conversations/bot-roster-chad.webp)
 
-*My actual bot roster, shared with the visible names and message previews
+*Part of my actual bot roster, shared with the visible names and message previews
 intentionally included. It shows the roles, not the bots' underlying account
 permissions or proof that every task succeeded.*
 
@@ -73,7 +73,7 @@ The names make the team enjoyable to use. The responsibilities make it useful.
 | Gary - Financial Markets | Daily financial-market briefings drawing on the relevant bots' findings. | Owns the financial digest and can ask DaVinci for visuals when needed. |
 | DaVinci | Creative production through my Grok Imagine API account, including images and video. | Any bot needing creative work can ask DaVinci; Gary is not a required router. |
 | Daily inspiration | Poetry and historical musings around Greek and Egyptian myths, Roman history, hermeticism, and other interests. | Delivers something reflective before my workouts; generated poetry is not a historical quotation. |
-| Fitness motivation | Encouragement and motivation for my fitness routine. | A separate purpose from research, markets, or creative production. |
+| Chad - fitness motivation | Encouragement and motivation for my fitness routine. | A separate purpose from research, markets, or creative production. |
 
 Master of Coin looks for possible opportunities and what I call kill zones:
 areas or conditions to be wary of. Those are research leads, not evidence of
