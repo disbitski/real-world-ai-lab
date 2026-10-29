@@ -4,6 +4,16 @@ Date: 2026-10-28
 
 ![A brushed-aluminum hub connects six distinct colored tool modules through recessed channels on a graphite desk beside a white cup of coffee.](assets/2026-10-28-grok-bots-functions-not-conversations/hero.webp)
 
+<!-- podcast-links:start -->
+## Listen To This Field Note
+
+This field note is also available as **Season 1, Episode 11** of *The Age We Build*.
+
+- [Listen on the Web](https://podcast.thedavedev.com/episodes/grok-bots-functions-not-conversations)
+- [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/grok-bots-made-me-think-in-functions-not-just-conversations/id6796456206?i=1000798632576)
+- [Watch on YouTube](https://www.youtube.com/watch?v=OVHDqU0uoKY)
+<!-- podcast-links:end -->
+
 ## Summary
 
 My morning coffee is becoming a meeting with a small team I built myself.
