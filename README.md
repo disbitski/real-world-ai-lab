@@ -19,7 +19,7 @@ toggle to study only cards grounded in official documentation links.
 
 | Light theme | Dark theme |
 | --- | --- |
-| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-76-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-76-dark.png) |
+| ![Real World AI Flashcards light theme](docs/assets/real-world-ai-flashcards-78-light.png) | ![Real World AI Flashcards dark theme](docs/assets/real-world-ai-flashcards-78-dark.png) |
 
 ## Field Notes
 
@@ -62,6 +62,7 @@ Short journal-style notes from hands-on AI workflow experiments:
 
 ### Creative Tools & Game Development
 
+- [Building ShadowProwl With Claude: A Stealth Bar With A Story](field-notes/2026-11-15-shadowprowl-claude-cowork.md) | [Addon source and screenshots](https://github.com/disbitski/ShadowProwl)
 - [From Warcraft III To Jev And Nimble: Exploring AI That Chooses Instead Of Chats](field-notes/2026-10-01-warcraft-jev-nimble.md) | [Battle replays](https://disbitski.github.io/jev-squad-lab/) | [Source and results](https://github.com/disbitski/jev-squad-lab)
 - [From My Amiga 500 To Blender MCP: Building Embermere's First Original Asset](field-notes/2026-07-14-amiga-blender-mcp-embermere.md)
 - [From One Waystone to a World: The Acceptance Loop Behind Embermere](field-notes/2026-07-22-embermere-asset-acceptance-loop.md)

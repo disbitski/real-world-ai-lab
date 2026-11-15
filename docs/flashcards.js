@@ -17,6 +17,41 @@ export const categories = [
 
 export const flashcards = [
   {
+    id: "shadowprowl-gameplay-lore-real",
+    category: "Creative Tools & Game Development",
+    mode: "real_world",
+    fieldNoteTitle: "Building ShadowProwl With Claude: A Stealth Bar With A Story",
+    fieldNotePath: "field-notes/2026-11-15-shadowprowl-claude-cowork.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-11-15-shadowprowl-claude-cowork.md`,
+    question: "What made ShadowProwl more than a generated UI decoration?",
+    answer:
+      "I used Claude Opus 5.5 High and Cowork to build a dedicated Prowl action page alongside the Watchers' graphics and original lore. The guardians wake with the stealth state. I kept the development workspace separate from my game installation and used actual gameplay to judge the result. The addon runs Lua and textures, not an AI choosing my abilities.",
+    tags: ["ShadowProwl", "gameplay feedback", "creative judgment"],
+    sources: [],
+  },
+  {
+    id: "shadowprowl-4d-loop-official",
+    category: "Creative Tools & Game Development",
+    mode: "official",
+    fieldNoteTitle: "Building ShadowProwl With Claude: A Stealth Bar With A Story",
+    fieldNotePath: "field-notes/2026-11-15-shadowprowl-claude-cowork.md",
+    fieldNoteUrl: `${NOTE_BASE}/2026-11-15-shadowprowl-claude-cowork.md`,
+    question: "How does Delegation differ from the Description-Discernment Loop?",
+    answer:
+      "Delegation determines how humans and AI divide the work. Description and Discernment form a feedback loop: communicate the desired output, approach, and behavior; assess what comes back; then refine. Diligence retains responsibility for how the work is done and used. These are competencies from Rick Dakan, Joseph Feller, and Anthropic's AI Fluency Framework, not an addon benchmark.",
+    tags: ["AI Fluency", "4D framework", "feedback loop"],
+    sources: [
+      {
+        label: "Rick Dakan, Joseph Feller, and Anthropic: AI Fluency Framework",
+        url: "https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf",
+      },
+      {
+        label: "Anthropic: Description-Discernment Loop",
+        url: "https://www.anthropic.com/ai-fluency/description-discernment-loop",
+      },
+    ],
+  },
+  {
     id: "grok-bots-functions-real",
     category: "Multi-Agent & Model Collaboration",
     mode: "real_world",
