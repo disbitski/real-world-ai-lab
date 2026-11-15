@@ -4,6 +4,15 @@ Date: 2026-11-15
 
 ![Two horned dark lion guardian busts with silver manes and red eyes flank a black-glass rail on stone plinths above a strip of green felt.](assets/2026-11-15-shadowprowl-claude-cowork/hero.webp)
 
+<!-- podcast-links:start -->
+## Listen To This Field Note
+
+This field note is also available as **Season 1, Episode 12** of *The Age We Build*.
+
+- [Listen on the Web](https://podcast.thedavedev.com/episodes/shadowprowl-claude-cowork)
+- [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/building-shadowprowl-with-claude-a-stealth-bar-with-a-story/id6796456206?i=1000802126787)
+<!-- podcast-links:end -->
+
 *Editorial illustration inspired by ShadowProwl's Watchers. The original addon
 artwork and actual gameplay captures appear below.*
 
