@@ -11,6 +11,7 @@ This field note is also available as **Season 1, Episode 12** of *The Age We Bui
 
 - [Listen on the Web](https://podcast.thedavedev.com/episodes/shadowprowl-claude-cowork)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/building-shadowprowl-with-claude-a-stealth-bar-with-a-story/id6796456206?i=1000802126787)
+- [Watch on YouTube](https://www.youtube.com/watch?v=pcPfOudcxws)
 <!-- podcast-links:end -->
 
 *Editorial illustration inspired by ShadowProwl's Watchers. The original addon
